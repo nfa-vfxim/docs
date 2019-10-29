@@ -1,4 +1,4 @@
 ## NFA-workflow
-The github repository for the NFA L2021 workflow.
+The github repository for the NFA L2021 wiki.
 
-# The workflow is accessible through the <a href="https://github.com/bkamphues/NFA-workflow/wiki">wiki</a> page. 
+# The wiki is accessible through the <a href="L2021-wiki.readthedocs.io">wiki</a> page. 
