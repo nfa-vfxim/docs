@@ -14,6 +14,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
+import recommonmark
 
 # -- Project information -----------------------------------------------------
 
@@ -22,7 +23,7 @@ copyright = '2019, Bo Kamphues'
 author = 'Bo Kamphues'
 
 # The full version, including alpha/beta/rc tags
-release = 'alpha 0.01.1'
+release = 'alpha 0.1.1'
 
 
 # -- General configuration ---------------------------------------------------
