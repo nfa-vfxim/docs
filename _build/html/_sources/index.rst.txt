@@ -1,9 +1,11 @@
+======================================
 Lichting 2021 VFX Wiki
 ======================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Index:
+
+   Information\projectIndex
 
 Test paragraph.
 
