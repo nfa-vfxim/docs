@@ -5,8 +5,5 @@ Lichting 2021 VFX Wiki
    :maxdepth: 2
    :caption: Contents:
 
-Index
-==================
+Test paragraph.
 
-* :ref:`genindex`
-* :ref:`search`
