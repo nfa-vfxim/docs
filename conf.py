@@ -18,8 +18,8 @@ import recommonmark
 
 # -- Project information -----------------------------------------------------
 
-project = 'L2021 Wiki'
-copyright = '2019, Bo Kamphues'
+project = 'VFX & IM Wiki'
+copyright = '2019, Nederlandse Filmacademie'
 author = 'Bo Kamphues'
 
 # The full version, including alpha/beta/rc tags
