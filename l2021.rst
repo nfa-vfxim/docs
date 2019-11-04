@@ -2,9 +2,10 @@
 L2021
 ===================
 
-.
+Algemene Info L2021:
+--------------------
 
 .. toctree::
 
-    fileNamingConventions
-    projectIndex
+    l2021ProjectIndex
+    l2021FileNamingConventions
