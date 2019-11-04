@@ -7,3 +7,4 @@ Test paragraph.
 .. toctree::
 
     information
+
