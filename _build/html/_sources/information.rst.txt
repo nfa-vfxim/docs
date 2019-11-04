@@ -2,7 +2,4 @@
 General Info
 ===================
 
-.. toctree::
-
-    projectIndex
-    fileNamingConventions
+Test paragraph.
