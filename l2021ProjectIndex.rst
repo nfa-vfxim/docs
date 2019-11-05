@@ -16,4 +16,4 @@ ELT   3e jaars - Groepsopdracht G2         |Active|
 .. |Archived| image:: https://img.shields.io/badge/Project-Archived-yellow
 .. |Deleted| image:: https://img.shields.io/badge/Project-Deleted-red
 .. |Active| image:: https://img.shields.io/badge/Project-Active-brightgreen
-.. |Hold| image:: https://img.shields.io/badge/Project-On%20Hold-blue
+.. |Hold| image:: https://img.shields.io/badge/Project-On--Hold-blue
