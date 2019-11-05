@@ -3,6 +3,8 @@ L2021 Project Index
 ===================
 Totale index van alle huidige 3e jaars projecten op de read & write servers:
 
+|Archived| |Deleted| |Active| |Hold|
+
 ====  ===================================  =====
 ID              Beschrijving               Satus
 ====  ===================================  =====
