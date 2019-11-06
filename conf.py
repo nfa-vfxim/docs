@@ -19,11 +19,11 @@ import recommonmark
 # -- Project information -----------------------------------------------------
 
 project = 'VFX & IM Wiki'
-copyright = '2019, Nederlandse Filmacademie'
+copyright = '2019, Bo Kamphues'
 author = 'Bo Kamphues'
 
 # The full version, including alpha/beta/rc tags
-release = 'alpha 0.2.1'
+release = '1.1.1'
 
 
 # -- General configuration ---------------------------------------------------
