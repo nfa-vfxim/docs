@@ -1,3 +1,3 @@
 =====================
-Topo Guideline (Jorn)
+Topo Guideline
 =====================
