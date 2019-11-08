@@ -1,6 +1,7 @@
 =======================
 Montage Workflow
 =======================
+*Bo Kamphues, November 2019*
 
 Om zo gestroomlijnd mogelijk tussen montage en VXF data
 te delen is het van belang de volgende workflow te volgen:
