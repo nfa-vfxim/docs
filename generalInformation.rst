@@ -105,8 +105,8 @@ zit de colorspace naamgeving daarna.
 Frame Nummer
 ++++++++++++
 
-Framenummers worden genoteerd als *####* of *######*.
-Deze beginnen met tellen vanaf *1001*.
+Framenummers worden genoteerd als *####*.
+Deze beginnen altijd met tellen vanaf *1001*.
 Wanneer er sprake is van handles komen de handle frames ervoor,
 zodat frame 1001 nog steeds de eerste frame is van de cut.
 
@@ -120,23 +120,18 @@ In principe houdt je de volgende structuur aan:
 
 | **Hoofd map (root)**
 | -> **map per vfx shot** (``tst_sc001_sh010``)
-| -> **map per delivery of versie** (``tst_sc001_sh010_d001``)
-| -> **map per plate** (``tst_sc001_sh010_d001_pA``)
+| -> **map per delivery of versie** (``tst_sc001_sh010_v001``)
+| -> **map per plate** (``tst_sc001_sh010_v001_pA``)
 | -> **map met resolutie** (``3840x2160``)
 | -> **de losse bestanden van alle frames**
 
-Wanneer er sprake is van één of meerdere plates,
+Wanneer er sprake is van één of maar enkele plates,
 kunnen de mappen voor verschillende plates ter hoogte van de
 versies opgeslagen worden, dan krijg je:
 
 | Hoofd map
-| -> **map per vfx shot** (``tst_sc001_fx010``)
+| -> **map per vfx shot** (``tst_sc001_sh010``)
 | -> **map per plate van delivery of versie** (``tst_sc001_sh010_v001_pA``)
 | -> **map met resolutie** (``3840x2160``)
 | -> **de losse bestanden van alle frames**
 
-De enige kanttekening die ik hierbij heb is dat de map met
-resolutie geen unieke naam heeft. Dus wanneer er verschillende
-resoluties zijn, denk aan proxy’s, maar enkel één map overgedragen
-moet worden, zal er handmatig een nieuwe map gemaakt moeten worden voor
-de versie op de plek van overdracht.
