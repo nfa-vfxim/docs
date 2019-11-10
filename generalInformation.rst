@@ -120,7 +120,7 @@ In principe houdt je de volgende structuur aan:
 
 | **Hoofd map (root)**
 | -> **map per vfx shot** (``tst_sc001_sh010``)
-| -> **map per delivery of versie** (``tst_sc001_sh010_v001``)
+| -> **map per pull of versie** (``tst_sc001_sh010_v001``)
 | -> **map per plate** (``tst_sc001_sh010_v001_pA``)
 | -> **map met filetype en resolutie** (``JPG_3840x2160``)
 | -> **de losse bestanden van alle frames**
@@ -131,7 +131,7 @@ versies opgeslagen worden, dan krijg je:
 
 | Hoofd map
 | -> **map per vfx shot** (``tst_sc001_sh010``)
-| -> **map per plate van delivery of versie** (``tst_sc001_sh010_v001_pA``)
+| -> **map per plate van pull of versie** (``tst_sc001_sh010_v001_pA``)
 | -> **map met filetype en resolutie** (``JPG_3840x2160``)
 | -> **de losse bestanden van alle frames**
 
