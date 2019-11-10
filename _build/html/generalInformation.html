@@ -89,7 +89,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#projectcode">Projectcode</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#scene-nummer">Scene Nummer</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#shot-nummer">Shot Nummer</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#versie-en-delivery-nummer">Versie en Delivery Nummer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#versie-en-pull-nummer">Versie en Pull Nummer</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#plate">Plate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#colourspace">Colourspace</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#frame-nummer">Frame Nummer</a></li>
@@ -174,11 +174,11 @@
 <h3>Plates &amp; Shots<a class="headerlink" href="#plates-shots" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="naamgeving">
 <h4>Naamgeving<a class="headerlink" href="#naamgeving" title="Permalink to this headline">¶</a></h4>
-<p><code class="docutils literal notranslate"><span class="pre">{projectcode}_sc{scene###}_sh{shot###}_d/v{delivery/versie###}_{plate}_{colourspace}_{frame####}.{bestandstype}</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">{projectcode}_sc{scene###}_sh{shot###}_d/v{delivery/versie###}_{plate}_{colourspace}.{frame####}.{bestandstype}</span></code></p>
 </div>
 <div class="section" id="voorbeeld">
 <h4>Voorbeeld<a class="headerlink" href="#voorbeeld" title="Permalink to this headline">¶</a></h4>
-<p><strong>tst_sc001_sh010_v001_ACEScg_1001.exr</strong></p>
+<p><strong>tst_sc001_sh010_v001_ACEScg.1001.exr</strong></p>
 </div>
 <div class="section" id="projectcode">
 <h4>Projectcode<a class="headerlink" href="#projectcode" title="Permalink to this headline">¶</a></h4>
@@ -218,14 +218,14 @@ van VFX shots (het moment dat bepaalde shots al een definitieve nummering
 krijgen) er nog ruimte is voor nieuwe VFX shots.
 Deze krijgen dan bijvoorbeeld de naam <code class="docutils literal notranslate"><span class="pre">sh011</span></code> of <code class="docutils literal notranslate"><span class="pre">sh015</span></code>.</p>
 </div>
-<div class="section" id="versie-en-delivery-nummer">
-<h4>Versie en Delivery Nummer<a class="headerlink" href="#versie-en-delivery-nummer" title="Permalink to this headline">¶</a></h4>
-<p>Het versie- en delivery nummer zijn belangrijk om
-verschillende versies/deliveries uit elkaar te houden.
+<div class="section" id="versie-en-pull-nummer">
+<h4>Versie en Pull Nummer<a class="headerlink" href="#versie-en-pull-nummer" title="Permalink to this headline">¶</a></h4>
+<p>Het versie- en pull nummer zijn belangrijk om
+verschillende versies/pull uit elkaar te houden.
 Voor overdracht van montage naar VFX wordt gebruik gemaakt van
-een delivery nummer. Genoteerd als <code class="docutils literal notranslate"><span class="pre">d###</span></code> optellend vanaf 001.
+een pull nummer. Genoteerd als <code class="docutils literal notranslate"><span class="pre">p###</span></code> optellend vanaf 001.
 Bij een wijziging van de frames die overgedragen worden,
-verhoogt het delivery nummer met 1.
+verhoogt het pull nummer met 1.
 Hetzelfde geldt voor versienummers, die intern gebruikt worden
 bij VFX en voor de overdracht naar montage.
 Deze staan genoteerd als <code class="docutils literal notranslate"><span class="pre">v###</span></code>. Overigens is het goed om op
@@ -256,8 +256,8 @@ zit de colorspace naamgeving daarna.</p>
 </div>
 <div class="section" id="frame-nummer">
 <h4>Frame Nummer<a class="headerlink" href="#frame-nummer" title="Permalink to this headline">¶</a></h4>
-<p>Framenummers worden genoteerd als <em>####</em> of <em>######</em>.
-Deze beginnen met tellen vanaf <em>1001</em>.
+<p>Framenummers worden genoteerd als <em>####</em>.
+Deze beginnen altijd met tellen vanaf <em>1001</em>.
 Wanneer er sprake is van handles komen de handle frames ervoor,
 zodat frame 1001 nog steeds de eerste frame is van de cut.</p>
 </div>
@@ -271,21 +271,21 @@ In principe houdt je de volgende structuur aan:</p>
 <div class="line-block">
 <div class="line"><strong>Hoofd map (root)</strong></div>
 <div class="line">-&gt; <strong>map per vfx shot</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010</span></code>)</div>
-<div class="line">-&gt; <strong>map per delivery of versie</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010_d001</span></code>)</div>
-<div class="line">-&gt; <strong>map per plate</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010_d001_pA</span></code>)</div>
-<div class="line">-&gt; <strong>map met resolutie</strong> (<code class="docutils literal notranslate"><span class="pre">3840x2160</span></code>)</div>
-<div class="line">-&gt; <strong>de losse bestanden van alle frames</strong>.</div>
+<div class="line">-&gt; <strong>map per delivery of versie</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010_v001</span></code>)</div>
+<div class="line">-&gt; <strong>map per plate</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010_v001_pA</span></code>)</div>
+<div class="line">-&gt; <strong>map met filetype en resolutie</strong> (<code class="docutils literal notranslate"><span class="pre">JPG_3840x2160</span></code>)</div>
+<div class="line">-&gt; <strong>de losse bestanden van alle frames</strong></div>
 </div>
-<p>Wanneer er sprake is van één of meerdere plates,
+<p>Wanneer er sprake is van één of maar enkele plates,
 kunnen de mappen voor verschillende plates ter hoogte van de
 versies opgeslagen worden, dan krijg je:</p>
 <div class="line-block">
 <div class="line">Hoofd map</div>
-<div class="line">-&gt; <strong>map per vfx shot</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_fx010</span></code>)</div>
-<div class="line">-&gt; map per plate van delivery of versie; tst_sc001_sh010_v001_pA, ect.</div>
-<div class="line"> map met resolutie; 3840x2160  de losse bestanden van alle frames.</div>
+<div class="line">-&gt; <strong>map per vfx shot</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010</span></code>)</div>
+<div class="line">-&gt; <strong>map per plate van delivery of versie</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010_v001_pA</span></code>)</div>
+<div class="line">-&gt; <strong>map met filetype en resolutie</strong> (<code class="docutils literal notranslate"><span class="pre">JPG_3840x2160</span></code>)</div>
+<div class="line">-&gt; <strong>de losse bestanden van alle frames</strong></div>
 </div>
-<p>De enige kanttekening die ik hierbij heb is dat de map met resolutie geen unieke naam heeft. Dus wanneer er verschillende resoluties zijn, denk aan proxy’s, maar enkel één map overgedragen moet worden, zal er handmatig een nieuwe map gemaakt moeten worden voor de versie op de plek van overdracht.</p>
 </div>
 </div>
 </div>

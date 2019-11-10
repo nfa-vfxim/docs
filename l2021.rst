@@ -17,5 +17,3 @@ Guidelines & Workflows:
 .. toctree::
 
     l2021/l2021Montage
-    l2021/l2021Uv
-    l2021/l2021Topo

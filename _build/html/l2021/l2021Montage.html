@@ -35,7 +35,6 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="UV Guideline" href="l2021Uv.html" />
     <link rel="prev" title="L2021 Read &amp; Write Afspraken" href="l2021ReadWrite.html" /> 
 </head>
 
@@ -87,10 +86,9 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../l2021.html#guidelines-workflows">Guidelines &amp; Workflows:</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Montage Workflow</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#montage-vfx">Montage -&gt; VFX</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#vfx-montage">VFX -&gt; Montage</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="l2021Uv.html">UV Guideline</a></li>
-<li class="toctree-l3"><a class="reference internal" href="l2021Topo.html">Topo Guideline</a></li>
 </ul>
 </li>
 </ul>
@@ -169,7 +167,7 @@ te delen is het van belang de volgende workflow te volgen:</p>
 <div class="section" id="montage-vfx">
 <h2>Montage -&gt; VFX<a class="headerlink" href="#montage-vfx" title="Permalink to this headline">¶</a></h2>
 <p>Alle shots worden via een breakdown document opnieuw
-ingedeeld vanaf shot 01.</p>
+ingedeeld vanaf shot 001.</p>
 <div class="section" id="stappen">
 <h3>Stappen<a class="headerlink" href="#stappen" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
@@ -179,11 +177,34 @@ een nieuw “VFX” shot lijst.</p></li>
 specificaties (wordt gecheckt en gemonitord door VFX student).</p></li>
 <li><p>De shots worden via de <code class="docutils literal notranslate"><span class="pre">nfa-productieserver.ahk.nl</span></code> overgedragen aan VFX.</p></li>
 <li><p>De shots worden gekopieëerd naar de <code class="docutils literal notranslate"><span class="pre">read</span></code> server en gerenamed
-volgens de <a class="reference internal" href="../generalInformation.html#conventies"><span class="std std-ref">File Naam Conventies</span></a>.</p></li>
+volgens de <a class="reference internal" href="../generalInformation.html#conventies"><span class="std std-ref">File Naam Conventies</span></a> met gebruik van een tool als <a class="reference external" href="http://rename.lupasfreeware.org/zips/setupEN.exe">Lupas Rename</a>.</p></li>
 </ol>
 </div>
-<div class="section" id="specificaties">
-<h3>Specificaties<a class="headerlink" href="#specificaties" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="import-specificaties">
+<h3>Import Specificaties<a class="headerlink" href="#import-specificaties" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Format:</strong> Half float (16 bit), ZIP compression, EXR sequence</p></li>
+<li><p><strong>Colorspace:</strong> ACEScg</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="vfx-montage">
+<h2>VFX -&gt; Montage<a class="headerlink" href="#vfx-montage" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Stappen<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Alle deliverables worden goed volgens de <a class="reference internal" href="../generalInformation.html#conventies"><span class="std std-ref">File Naam Conventies</span></a> uitgerenderd.</p></li>
+<li><p>De VFX student kopieëert deze deliverables naar de
+<code class="docutils literal notranslate"><span class="pre">nfa-productieserver.ahk.nl</span></code>
+(zorg dat je de originele deliverables ook op de read laat staan).</p></li>
+<li><p>Onder toezicht van de VFX student kopieëert
+de montage student de deliverables
+naar hun lokale werkomgeving
+en conformen deze in de edit.</p></li>
+</ol>
+</div>
+<div class="section" id="export-specificaties">
+<h3>Export Specificaties<a class="headerlink" href="#export-specificaties" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><strong>Format:</strong> Half float (16 bit), ZIP compression, EXR sequence</p></li>
 <li><p><strong>Colorspace:</strong> ACEScg</p></li>
@@ -199,8 +220,6 @@ volgens de <a class="reference internal" href="../generalInformation.html#conven
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="l2021Uv.html" class="btn btn-neutral float-right" title="UV Guideline" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="l2021ReadWrite.html" class="btn btn-neutral float-left" title="L2021 Read &amp; Write Afspraken" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

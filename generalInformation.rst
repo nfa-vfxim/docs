@@ -14,12 +14,12 @@ Plates & Shots
 Naamgeving
 ++++++++++
 
-``{projectcode}_sc{scene###}_sh{shot###}_d/v{delivery/versie###}_{plate}_{colourspace}_{frame####}.{bestandstype}``
+``{projectcode}_sc{scene###}_sh{shot###}_d/v{delivery/versie###}_{plate}_{colourspace}.{frame####}.{bestandstype}``
 
 Voorbeeld
 +++++++++
 
-**tst_sc001_sh010_v001_ACEScg_1001.exr**
+**tst_sc001_sh010_v001_ACEScg.1001.exr**
 
 Projectcode
 +++++++++++
@@ -63,15 +63,15 @@ van VFX shots (het moment dat bepaalde shots al een definitieve nummering
 krijgen) er nog ruimte is voor nieuwe VFX shots.
 Deze krijgen dan bijvoorbeeld de naam ``sh011`` of ``sh015``.
 
-Versie en Delivery Nummer
+Versie en Pull Nummer
 +++++++++++++++++++++++++
 
-Het versie- en delivery nummer zijn belangrijk om
-verschillende versies/deliveries uit elkaar te houden.
+Het versie- en pull nummer zijn belangrijk om
+verschillende versies/pull uit elkaar te houden.
 Voor overdracht van montage naar VFX wordt gebruik gemaakt van
-een delivery nummer. Genoteerd als ``d###`` optellend vanaf 001.
+een pull nummer. Genoteerd als ``p###`` optellend vanaf 001.
 Bij een wijziging van de frames die overgedragen worden,
-verhoogt het delivery nummer met 1.
+verhoogt het pull nummer met 1.
 Hetzelfde geldt voor versienummers, die intern gebruikt worden
 bij VFX en voor de overdracht naar montage.
 Deze staan genoteerd als ``v###``. Overigens is het goed om op
@@ -122,7 +122,7 @@ In principe houdt je de volgende structuur aan:
 | -> **map per vfx shot** (``tst_sc001_sh010``)
 | -> **map per delivery of versie** (``tst_sc001_sh010_v001``)
 | -> **map per plate** (``tst_sc001_sh010_v001_pA``)
-| -> **map met resolutie** (``3840x2160``)
+| -> **map met filetype en resolutie** (``JPG_3840x2160``)
 | -> **de losse bestanden van alle frames**
 
 Wanneer er sprake is van één of maar enkele plates,
@@ -132,6 +132,6 @@ versies opgeslagen worden, dan krijg je:
 | Hoofd map
 | -> **map per vfx shot** (``tst_sc001_sh010``)
 | -> **map per plate van delivery of versie** (``tst_sc001_sh010_v001_pA``)
-| -> **map met resolutie** (``3840x2160``)
+| -> **map met filetype en resolutie** (``JPG_3840x2160``)
 | -> **de losse bestanden van alle frames**
 
