@@ -129,9 +129,9 @@ Wanneer er sprake is van één of maar enkele plates,
 kunnen de mappen voor verschillende plates ter hoogte van de
 versies opgeslagen worden, dan krijg je:
 
-| Hoofd map
+| **Hoofd map (root)**
 | -> **map per vfx shot** (``tst_sc001_sh010``)
-| -> **map per plate van pull of versie** (``tst_sc001_sh010_v001_pA``)
+| -> **map per plate van pull of versie + Plate** (``tst_sc001_sh010_v001_pA``)
 | -> **map met filetype en resolutie** (``JPG_3840x2160``)
 | -> **de losse bestanden van alle frames**
 
