@@ -1,6 +1,8 @@
 ============================
 L2021 Read & Write Afspraken
 ============================
+*Bo Kamphues, November 2019*
+
 Hieronder volgen een aantal belangrijke afspraken rondom
 de Read & Write servers:
 

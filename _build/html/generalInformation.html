@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Algemene Info &mdash; VFX &amp; IM Wiki alpha 0.2.1 documentation</title>
+  <title>Algemene Info &mdash; VFX &amp; IM Wiki 1.2.1 documentation</title>
   
 
   
@@ -82,7 +82,22 @@
             
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Algemene Info</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#file-naam-conventies">File Naam Conventies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#file-naam-conventies">File Naam Conventies</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#plates-shots">Plates &amp; Shots</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#naamgeving">Naamgeving</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#voorbeeld">Voorbeeld</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#projectcode">Projectcode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#scene-nummer">Scene Nummer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#shot-nummer">Shot Nummer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#versie-en-pull-nummer">Versie en Pull Nummer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#plate">Plate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#colourspace">Colourspace</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#frame-nummer">Frame Nummer</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#mappen-structuur">Mappen Structuur</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="l2021.html">L2021</a></li>
@@ -153,7 +168,125 @@
   <div class="section" id="algemene-info">
 <h1>Algemene Info<a class="headerlink" href="#algemene-info" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="file-naam-conventies">
-<h2>File Naam Conventies<a class="headerlink" href="#file-naam-conventies" title="Permalink to this headline">¶</a></h2>
+<span id="conventies"></span><h2>File Naam Conventies<a class="headerlink" href="#file-naam-conventies" title="Permalink to this headline">¶</a></h2>
+<p><em>Jurrian van Vuuren, November 2019</em></p>
+<div class="section" id="plates-shots">
+<h3>Plates &amp; Shots<a class="headerlink" href="#plates-shots" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="naamgeving">
+<h4>Naamgeving<a class="headerlink" href="#naamgeving" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">{projectcode}_sc{scene###}_sh{shot###}_d/v{delivery/versie###}_{plate}_{colourspace}.{frame####}.{bestandstype}</span></code></p>
+</div>
+<div class="section" id="voorbeeld">
+<h4>Voorbeeld<a class="headerlink" href="#voorbeeld" title="Permalink to this headline">¶</a></h4>
+<p><strong>tst_sc001_sh010_v001_ACEScg.1001.exr</strong></p>
+</div>
+<div class="section" id="projectcode">
+<h4>Projectcode<a class="headerlink" href="#projectcode" title="Permalink to this headline">¶</a></h4>
+<p>De projectcode is een drie-klein-letterige code die voor elk project
+uniek is. Deze afkorting moet het project vertegenwoordigen.
+Voor <em>Puur Vuil</em> zou je bijvoorbeeld <code class="docutils literal notranslate"><span class="pre">prv</span></code> kunnen gebruiken.
+Voor <em>Mania</em> werd <code class="docutils literal notranslate"><span class="pre">man</span></code> gebruikt. De drie letters zorgen voor 17576
+mogelijke combinaties. Maar is tegelijkertijd ook kort
+genoeg om te onthouden en attent te zijn op typefouten.</p>
+</div>
+<div class="section" id="scene-nummer">
+<h4>Scene Nummer<a class="headerlink" href="#scene-nummer" title="Permalink to this headline">¶</a></h4>
+<p>Afhankelijk van de grootte van het project kun je het scène nummer
+gebruiken in de map en bestandsnamen.
+Hiervoor is het gebruikelijk om de scenenummers van het shooting
+script te hanteren. Dit zorgt voor een consistente benaming tijdens
+de pre-productie, het draaien en de post-productie. Een scène nummer
+wordt genoteerd als <code class="docutils literal notranslate"><span class="pre">sc###</span></code> waar <em>###</em> vervangen wordt door het
+scène nummer van de sequentie.</p>
+<p>Wanneer er sprake is van kleine projecten, zoals commercials
+of poetsshots, kan een scène nummer overbodig zijn. Wel kun je een
+onderscheid maken tussen bepaalde sequenties in het project
+en artificiële scène nummers gebruiken.
+In het geval van poetsshots, titelsequenties en
+andere overige shots bij producties waar wel gebruik
+gemaakt wordt van scène nummers voor de reguliere vfx
+shots, kun je deze apart classificeren doormiddel van
+bijvoorbeeld <code class="docutils literal notranslate"><span class="pre">sc000</span></code> of <code class="docutils literal notranslate"><span class="pre">sc999</span></code>.</p>
+</div>
+<div class="section" id="shot-nummer">
+<h4>Shot Nummer<a class="headerlink" href="#shot-nummer" title="Permalink to this headline">¶</a></h4>
+<p>Shot nummers worden genoteerd als <code class="docutils literal notranslate"><span class="pre">sh###</span></code>. Hierbij begint
+het eerste shot bij 010 en gaat steeds met 10 omhoog. Dus, <code class="docutils literal notranslate"><span class="pre">sh010</span></code>,
+<code class="docutils literal notranslate"><span class="pre">sh020</span></code>, <code class="docutils literal notranslate"><span class="pre">sh030</span></code>. Alleen VFX shots worden meegerekend in de nummering.
+De stappen van 10 zorgen ervoor dat er na de eerste indexatie
+van VFX shots (het moment dat bepaalde shots al een definitieve nummering
+krijgen) er nog ruimte is voor nieuwe VFX shots.
+Deze krijgen dan bijvoorbeeld de naam <code class="docutils literal notranslate"><span class="pre">sh011</span></code> of <code class="docutils literal notranslate"><span class="pre">sh015</span></code>.</p>
+</div>
+<div class="section" id="versie-en-pull-nummer">
+<h4>Versie en Pull Nummer<a class="headerlink" href="#versie-en-pull-nummer" title="Permalink to this headline">¶</a></h4>
+<p>Het versie- en pull nummer zijn belangrijk om
+verschillende versies/pull uit elkaar te houden.
+Voor overdracht van montage naar VFX wordt gebruik gemaakt van
+een pull nummer. Genoteerd als <code class="docutils literal notranslate"><span class="pre">p###</span></code> optellend vanaf 001.
+Bij een wijziging van de frames die overgedragen worden,
+verhoogt het pull nummer met 1.
+Hetzelfde geldt voor versienummers, die intern gebruikt worden
+bij VFX en voor de overdracht naar montage.
+Deze staan genoteerd als <code class="docutils literal notranslate"><span class="pre">v###</span></code>. Overigens is het goed om op
+zijn minst deze versienummers leidend te maken voor de
+naamgeving van <em>Shotgun</em> versies.</p>
+</div>
+<div class="section" id="plate">
+<h4>Plate<a class="headerlink" href="#plate" title="Permalink to this headline">¶</a></h4>
+<p>Soms moeten er meerdere plates geleverd worden vanuit montage
+naar VFX of bijvoorbeeld een alpha terug vanuit VFX. Ook pre-renders
+kunnen op deze plek aangeduid worden. Omdat het plate nummer relatief
+is aan het versie/delivery nummer komt het na
+het versie/delivery nummer.
+Bij afwezigheid van verschillende plates hoeft het plate nummer
+niet meegenomen worden in de naamgeving.
+Het plate nummer kan je op meerdere manieren noteren.
+Bijvoorbeeld <code class="docutils literal notranslate"><span class="pre">pA</span></code>, <code class="docutils literal notranslate"><span class="pre">pB</span></code>, <code class="docutils literal notranslate"><span class="pre">p001</span></code>, <code class="docutils literal notranslate"><span class="pre">p002</span></code>
+of als <code class="docutils literal notranslate"><span class="pre">prerender</span></code>, <code class="docutils literal notranslate"><span class="pre">alpha</span></code>, <code class="docutils literal notranslate"><span class="pre">bg</span></code>, etc.</p>
+</div>
+<div class="section" id="colourspace">
+<h4>Colourspace<a class="headerlink" href="#colourspace" title="Permalink to this headline">¶</a></h4>
+<p>Aangezien colourspaces van beeld materiaal niet in metadata
+wordt meegegeven, is het belangrijk dat deze in de naamgeving zitten.
+Afhankelijk van de colourspace noteer je dit als
+<code class="docutils literal notranslate"><span class="pre">sRGB</span></code>, <code class="docutils literal notranslate"><span class="pre">rec709</span></code>, <code class="docutils literal notranslate"><span class="pre">ACEScg</span></code>, <code class="docutils literal notranslate"><span class="pre">sLog1</span></code>, ect.
+Omdat de colorspace afhangt van het delivery/versie nummer en plate nummer,
+zit de colorspace naamgeving daarna.</p>
+</div>
+<div class="section" id="frame-nummer">
+<h4>Frame Nummer<a class="headerlink" href="#frame-nummer" title="Permalink to this headline">¶</a></h4>
+<p>Framenummers worden genoteerd als <em>####</em>.
+Deze beginnen altijd met tellen vanaf <em>1001</em>.
+Wanneer er sprake is van handles komen de handle frames ervoor,
+zodat frame 1001 nog steeds de eerste frame is van de cut.</p>
+</div>
+</div>
+<div class="section" id="mappen-structuur">
+<h3>Mappen Structuur<a class="headerlink" href="#mappen-structuur" title="Permalink to this headline">¶</a></h3>
+<p>Bij het overdragen van materiaal worden vaak hele mappen versleept.
+Het is daarom belangrijk dat de mappenstructuur lijkt
+op de naamgeving van de data.
+In principe houdt je de volgende structuur aan:</p>
+<div class="line-block">
+<div class="line"><strong>Hoofd map (root)</strong></div>
+<div class="line">-&gt; <strong>map per vfx shot</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010</span></code>)</div>
+<div class="line">-&gt; <strong>map per delivery of versie</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010_v001</span></code>)</div>
+<div class="line">-&gt; <strong>map per plate</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010_v001_pA</span></code>)</div>
+<div class="line">-&gt; <strong>map met filetype en resolutie</strong> (<code class="docutils literal notranslate"><span class="pre">JPG_3840x2160</span></code>)</div>
+<div class="line">-&gt; <strong>de losse bestanden van alle frames</strong></div>
+</div>
+<p>Wanneer er sprake is van één of maar enkele plates,
+kunnen de mappen voor verschillende plates ter hoogte van de
+versies opgeslagen worden, dan krijg je:</p>
+<div class="line-block">
+<div class="line">Hoofd map</div>
+<div class="line">-&gt; <strong>map per vfx shot</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010</span></code>)</div>
+<div class="line">-&gt; <strong>map per plate van delivery of versie</strong> (<code class="docutils literal notranslate"><span class="pre">tst_sc001_sh010_v001_pA</span></code>)</div>
+<div class="line">-&gt; <strong>map met filetype en resolutie</strong> (<code class="docutils literal notranslate"><span class="pre">JPG_3840x2160</span></code>)</div>
+<div class="line">-&gt; <strong>de losse bestanden van alle frames</strong></div>
+</div>
+</div>
 </div>
 </div>
 
@@ -177,7 +310,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Nederlandse Filmacademie
+        &copy; Copyright 2019, Bo Kamphues
 
     </p>
   </div>
