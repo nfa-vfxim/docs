@@ -70,7 +70,7 @@ Het versie- en pull nummer zijn belangrijk om
 verschillende versies/pulls uit elkaar te houden.
 Voor overdracht van montage naar VFX wordt gebruik gemaakt van
 een pull nummer. Genoteerd als ``p###`` optellend vanaf 001.
-Bij een wijziging van de frames die overgedragen worden, denk aan andere framerange, colourspace of resolutie,
+Bij een wijziging van de frames die overgedragen worden, (denk aan andere framerange, colourspace of resolutie)
 verhoogt het pull nummer met 1.
 Hetzelfde geldt voor versienummers, die intern gebruikt worden
 bij VFX en voor de overdracht naar montage.
