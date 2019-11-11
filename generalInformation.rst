@@ -14,7 +14,7 @@ Plates & Shots
 Naamgeving
 ++++++++++
 
-``{projectcode}_sc{scene###}_sh{shot###}_d/v{delivery/versie###}_{plate}_{colourspace}.{frame####}.{bestandstype}``
+``{projectcode}_sc{scene###}_sh{shot###}_p/v{pull/versie###}_{plate}_{colourspace}.{frame####}.{bestandstype}``
 
 Voorbeeld
 +++++++++
@@ -67,10 +67,10 @@ Versie en Pull Nummer
 +++++++++++++++++++++++++
 
 Het versie- en pull nummer zijn belangrijk om
-verschillende versies/pull uit elkaar te houden.
+verschillende versies/pulls uit elkaar te houden.
 Voor overdracht van montage naar VFX wordt gebruik gemaakt van
 een pull nummer. Genoteerd als ``p###`` optellend vanaf 001.
-Bij een wijziging van de frames die overgedragen worden,
+Bij een wijziging van de frames die overgedragen worden, (denk aan andere framerange, colourspace of resolutie)
 verhoogt het pull nummer met 1.
 Hetzelfde geldt voor versienummers, die intern gebruikt worden
 bij VFX en voor de overdracht naar montage.
@@ -99,8 +99,8 @@ Aangezien colourspaces van beeld materiaal niet in metadata
 wordt meegegeven, is het belangrijk dat deze in de naamgeving zitten.
 Afhankelijk van de colourspace noteer je dit als
 ``sRGB``, ``rec709``, ``ACEScg``, ``sLog1``, ect.
-Omdat de colorspace afhangt van het delivery/versie nummer en plate nummer,
-zit de colorspace naamgeving daarna.
+Omdat de colourspace afhangt van het delivery/versie nummer en plate nummer,
+zit de colourspace naamgeving daarna.
 
 Frame Nummer
 ++++++++++++
