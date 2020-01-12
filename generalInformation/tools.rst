@@ -16,7 +16,7 @@ nuke plugins te vinden:
 Productie tools
 ---------------
 
-* :ref:`Lupas Rename` - Renaming tool om meerdere files in 1 keer te renamen.
+* `Lupas Rename`_ - Renaming tool om meerdere files in 1 keer te renamen.
 
 
 .. _`Lupas Rename`: http://rename.lupasfreeware.org/zips/setupEN.exe
