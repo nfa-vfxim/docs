@@ -23,7 +23,7 @@ copyright = '2020, Bo Kamphues'
 author = 'Bo Kamphues'
 
 # The full version, including alpha/beta/rc tags
-release = '1.2.4'
+release = '1.2.5'
 
 
 # -- General configuration ---------------------------------------------------
