@@ -1,11 +1,11 @@
+.. _Conventies:
+
 Source File Naam Conventies
 ---------------------------
 *Jurrian van Vuuren, November 2019*
 
 Plates & Shots
 ==============
-
-.. _Conventies:
 
 Naamgeving
 ++++++++++
