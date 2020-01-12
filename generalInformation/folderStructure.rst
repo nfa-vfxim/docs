@@ -105,3 +105,17 @@ er op de read als volgt uit:
         - Nuke
         - Houdini
         - Maya
+
+Write Server
+++++++++++++
+
+* prj_ProjectNaam
+
+    - 01_cgrenders
+
+        - {shots}
+
+    - 02_sim
+    - 03_comp
+
+        - {shots}
