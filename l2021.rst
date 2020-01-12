@@ -15,5 +15,6 @@ Guidelines & Workflows:
 -----------------------
 
 .. toctree::
+    :maxdepth: 1
 
     l2021/l2021Montage
