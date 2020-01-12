@@ -1,3 +1,5 @@
+.. _Conventies:
+
 Source File Naam Conventies
 ---------------------------
 *Jurrian van Vuuren, November 2019*
@@ -104,6 +106,8 @@ Framenummers worden genoteerd als *####*.
 Deze beginnen altijd met tellen vanaf *1001*.
 Wanneer er sprake is van handles komen de handle frames ervoor,
 zodat frame 1001 nog steeds de eerste frame is van de cut.
+
+.. _sourceFolderConventies:
 
 Mappen Structuur
 ================
