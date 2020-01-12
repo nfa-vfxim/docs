@@ -26,85 +26,85 @@ er op de read als volgt uit:
 
     - 02_ref
 
-    - 01_setdata
+        - 01_setdata
 
-        - photogrammetry
-        - reports
-        - setimages
-        - hdri
-        - lens
+            - photogrammetry
+            - reports
+            - setimages
+            - hdri
+            - lens
 
-    - 02_schematics
-    - 03_images
-    - 04_video
-    - 05_anim
-    - 06_picturelock
+        - 02_schematics
+        - 03_images
+        - 04_video
+        - 05_anim
+        - 06_picturelock
 
-- 03_source
+    - 03_source
 
-    Hierin speelt zich de mappenstructuur
-    af aangegeven in :ref:`sourceFolderConventies`.
+        Hierin speelt zich de mappenstructuur
+        af aangegeven in :ref:`sourceFolderConventies`.
 
-- 04_elements
+    - 04_elements
 
-    - 01_assets
+        - 01_assets
 
-        - {prj_assetname}
+            - {prj_assetname}
 
-            - model
+                - model
 
-                - highpoly
-                - lowpoly
+                    - highpoly
+                    - lowpoly
 
-            - textures
-            - rig
-            - usd
+                - textures
+                - rig
+                - usd
 
-                - geo
-                - materials
+                    - geo
+                    - materials
 
-    - 02_caches
+        - 02_caches
 
-        - anim
-        - sim
+            - anim
+            - sim
 
-    - 03_hdri
-    - 04_mattepainting
-    - 05_stock
+        - 03_hdri
+        - 04_mattepainting
+        - 05_stock
 
-        - images
-        - sequences
-        - models
+            - images
+            - sequences
+            - models
 
-- 05_workfiles
+    - 05_workfiles
 
-    - assets
+        - assets
 
-        - {asset}
+            - {asset}
 
-            - {software}
+                - {software}
 
-    - shots
+        - shots
 
-        - {shot}
+            - {shot}
 
-            - {software}
+                - {software}
 
-                - (template software project map)
+                    - (template software project map)
 
-- 06_renders
+    - 06_renders
 
-    - prerender
-    - cg
-    - delivery
+        - prerender
+        - cg
+        - delivery
 
-- _pipeline
+    - _pipeline
 
-    - templates
+        - templates
 
-        - Nuke
-        - Houdini
-        - Maya
+            - Nuke
+            - Houdini
+            - Maya
 
 Write Server
 ++++++++++++
