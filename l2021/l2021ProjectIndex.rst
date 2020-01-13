@@ -9,10 +9,11 @@ Totale index van alle huidige 3e jaars projecten op de read & write servers:
 ID              Beschrijving               Satus
 ====  ===================================  =====
 COM   3e jaars - Commercials               |Deleted|
-BAY   3e jaars - Masterclass Rudi & Ewoud  |Active|
-UND   3e jaars - Groepsopdracht G1         |Active|
-ELT   3e jaars - Groepsopdracht G2         |Active|
+BAY   3e jaars - Masterclass Rudi & Ewoud  |Archived|
+UND   3e jaars - Groepsopdracht G1         |Archived|
+ELT   3e jaars - Groepsopdracht G2         |Archived|
 3JF   3e jaars - Ficties & Docu's          |Active|
+XPR   4e jaars - X-Projecten               |Active|
 ====  ===================================  =====
 
 .. |Archived| image:: https://img.shields.io/badge/Project-Archived-yellow
