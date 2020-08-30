@@ -1,6 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/vfxim-docs/badge/?version=latest)](https://wiki.vfxim.nl/nl/latest/?badge=latest)
 # vfxim docs
-The github repository for the visual effects & immersive documentation.
+The github repository for the visual effects & immersive media documentation.
 
 The wiki is accessible [here](https://wiki.vfxim.nl/) . 
 
