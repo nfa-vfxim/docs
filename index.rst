@@ -1,6 +1,6 @@
-======================================
-VFX & IM WIKI
-======================================
+===============================================
+Visual Effects & Immersive Media Documentation
+===============================================
 
 Welkom bij de VFX & IM wiki.
 Op deze wiki vind je een algemene plek
