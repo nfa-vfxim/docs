@@ -1,8 +1,8 @@
 [![Documentation Status](https://readthedocs.org/projects/vfxim-docs/badge/?version=latest)](https://wiki.vfxim.nl/nl/latest/?badge=latest)
 # vfxim docs
-The github repository for the VFX & IM documentation.
+The github repository for the visual effects & immersive documentation.
 
-The wiki is accessible through the <a href="https://wiki.vfxim.nl/">wiki</a> page. 
+The wiki is accessible [here](https://wiki.vfxim.nl/) . 
 
 ## Maintenance
 
