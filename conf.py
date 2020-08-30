@@ -54,7 +54,7 @@ exclude_patterns = []
 #
 html_theme = "sphinx_rtd_theme"
 
-html_logo = "logo.png"
+html_logo = "logo.svg"
 
 # RTD Theme options:
 html_theme_options = {
