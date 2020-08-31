@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 15:14+0200\n"
+"POT-Creation-Date: 2020-08-31 15:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../docs/maintenance/documentation_maintenance.rst:5
-#: d4ae09388f5b4f819f3a05fd93f92a85
-msgid "Documentation Maintenance"
+#: ../../docs/maintenance.rst:5 c7c8327ba42845758a7cb3e119321fdb
+msgid "Maintenance"
+msgstr ""
+
+#: ../../docs/maintenance.rst:7 b10016fe27e648f58dddda4854aaff88
+msgid ""
+"Below you'll find all sections describing the maintenance of this "
+"documentation."
 msgstr ""
 
