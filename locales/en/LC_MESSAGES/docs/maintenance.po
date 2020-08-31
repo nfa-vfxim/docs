@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 15:22+0200\n"
+"POT-Creation-Date: 2020-08-31 15:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,9 +21,21 @@ msgstr ""
 msgid "Maintenance"
 msgstr ""
 
-#: ../../docs/maintenance.rst:7 b10016fe27e648f58dddda4854aaff88
+#: ../../docs/maintenance.rst:7 9968ebbc3b4b4c829a89a23119ce7e06
 msgid ""
-"Below you'll find all sections describing the maintenance of this "
-"documentation."
+"As with any long standing project, this documentation needs maintenance "
+"every once in a while. This maintenance is done by curators who add, edit"
+" and, if necessary, delete articles. The following sections describe how "
+"said maintenance is done and the conventions surrounding it."
 msgstr ""
+
+#: ../../docs/maintenance.rst:13 26ecc0d424764b4e98d036aac9ad782f
+msgid "Adding Articles"
+msgstr ""
+
+#~ msgid ""
+#~ "Below you'll find all sections "
+#~ "describing the maintenance of this "
+#~ "documentation."
+#~ msgstr ""
 
