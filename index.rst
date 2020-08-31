@@ -1,10 +1,10 @@
 ===============================================
-Visual Effects & Immersive Media Documentatie
+Visual Effects & Immersive Media Documentation
 ===============================================
 
-Welkom bij de visual effects & immersive media documentatie/wiki.
+Welcome to the visual effects & immersive media documentation/wiki.
 
-.. caution:: Deze versie van de documentatie wordt op dit moment ge-"refactored". Klik linksonder om te switchen naar de laatste stabiele release van deze documentatie.
+.. caution:: This version of the documentation is currently being "re-factored". In the lower left corner of the screen should be a button to go back to the current stable version.
 
 .. toctree::
     :glob:
