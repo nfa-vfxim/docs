@@ -14,6 +14,15 @@ tree below shows all sections.
 
 .. toctree::
     :glob:
+    :caption: User Documentation
+    :hidden:
+
+    docs/user/pipeline/pipeline_user_overview*
+
+.. toctree::
+    :glob:
+    :caption: Technical Documentation
+    :hidden:
 
     docs/pipeline/pipeline_overview*
     docs/maintenance*

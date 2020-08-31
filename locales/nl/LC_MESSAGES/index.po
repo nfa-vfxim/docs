@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 15:22+0200\n"
+"POT-Creation-Date: 2020-08-31 17:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Bo Kamphues <me@bokamphues.nl>\n"
 "Language-Team: Dutch\n"
@@ -17,34 +17,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
+#: ../../index.rst:15
+msgid "Gebruiker Documentatie"
+msgstr ""
+
+#: ../../index.rst:22
+msgid "Technische Documentatie"
+msgstr ""
+
 #: ../../index.rst:3 98536ed9538849eab7c6607946f115b7
 msgid "Visual Effects & Immersive Media Documentation"
 msgstr ""
 
 #: ../../index.rst:5 7fda62e0b06f43898c7f64f7edf6b794
 msgid ""
-"This version of the documentation is currently being \"re-factored\". In "
-"the lower left corner of the screen should be a button to go back to the "
-"current stable version."
+"Deze versie van de documentatie wordt op het moment ge- \"refactored\". In "
+"het menu linksonder kan je terug gaan naar de stabiele versie van de documentatie."
 msgstr ""
 
 #: ../../index.rst:7 f56652f4afdd45ec8204983d9a297650
-msgid "Welcome to the visual effects & immersive media documentation/wiki."
+msgid "Welkom bij de visual effects & immersive media documentatie/wiki."
 msgstr ""
 
 #: ../../index.rst:9 167d6256fcd14e59979bc26591390939
 msgid ""
-"On this wiki you'll find all information, tutorials and documentation "
-"regarding the pipeline, workflows and other class related stuff. Each "
-"class has it's own section meant for information and/or tutorials you'd "
-"like to share with the rest of the class. The contents tree below shows "
-"all sections."
+"Op deze wiki vind je alle informatie, tutorials and documentatie "
+"rondom de pipeline, workflows en andere lichting gerelateerde zaken. Elke "
+"lichting heeft zijn eigen sectie met informatie en/of tutorials die je zou willen doorgeven aan de rest van je klas."
+"De index hieronder beschrijft alle paginas."
 msgstr ""
 
 #: ../../index.rst:13 eb88071ba87e41d1a48222470842328f
 msgid ""
-"In case you're here as a curator, head over to the :ref:`maintenance` "
-"page to find out how to add articles and maintain languages."
+"In het geval dat je hier bent als curator, ga naar de :ref:`maintenance` "
+"pagina om uit te vinden hoe de documentatie netjes wordt gehouden en hoe je nieuwe artikelen kan toevoegen."
 msgstr ""
 
 #~ msgid "Visual Effects & Immersive Media Documentatie"

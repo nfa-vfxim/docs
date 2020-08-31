@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 15:36+0200\n"
+"POT-Creation-Date: 2020-08-31 17:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,13 +29,230 @@ msgid ""
 "said maintenance is done and the conventions surrounding it."
 msgstr ""
 
-#: ../../docs/maintenance.rst:13 26ecc0d424764b4e98d036aac9ad782f
-msgid "Adding Articles"
+#: ../../docs/maintenance.rst:13 f38d0dc4dd844f8e9d463a02b96045d2
+msgid "Curator Information"
+msgstr ""
+
+#: ../../docs/maintenance.rst:15 1214cfd0f760487088c6f345f8bc5862
+msgid ""
+"This documentation is hosted through `Read the Docs <readthedocs.org>`_, "
+"an industry-standard way of creating documentation for software or in-"
+"house guides. Some examples of companies using *RTD* are:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:18 14e61be4e2054d77b7d51ae54c77d110
+msgid "`Shotgun <https://developer.shotgunsoftware.com/>`_"
+msgstr ""
+
+#: ../../docs/maintenance.rst:19 48af72ad739b438d890c6f9e19d858c1
+msgid "`OpenColorIO <https://opencolorio.readthedocs.io/en/latest/>`_"
+msgstr ""
+
+#: ../../docs/maintenance.rst:20 7d334657820a4251bd58a9287c0ce187
+msgid "`Alembic <https://docs.alembic.io/>`_"
+msgstr ""
+
+#: ../../docs/maintenance.rst:22 56c8c41097624876aa8216c6146ad98f
+msgid ""
+"*RTD* documentation pages are written in a format called "
+"`ReStructuredText <https://thomas-"
+"cokelaer.info/tutorials/sphinx/rest_syntax.html>`_. *ReST* is a markup "
+"language which means that some characters like an asterisk (#) or an "
+"underscore (_) have a different meaning. You may have seen a similiar "
+"markup language like *HTML* or *Markdown* in use on websites or GitHub "
+"repositories. It takes time to get the hang of writing in *ReST*, but "
+"with the help of this `cheatsheet <https://thomas-"
+"cokelaer.info/tutorials/sphinx/rest_syntax.html>`_ you'll get the gist of"
+" it quickly. It is recommended to use an *IDE* that supports syntax "
+"highlighting for *ReST* so it will tell you when you correctly type "
+"directives. This `Visual Studio Code extension "
+"<https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_"
+" takes care of that for you."
+msgstr ""
+
+#: ../../docs/maintenance.rst:29 aff75c803a8a4909a7793243392a6741
+msgid ""
+"This documentation is hosted through *RTD*, but the actual working code "
+"resides in a `GitHub repository <https://github.com/nfa-vfxim/docs>`_. "
+"The website automatically builds itself whenever a commit is pushed to "
+"one of the branches of the repository. It is highly recommended to get "
+"the hang of Git through your *IDE* and/or the commandline to accurately "
+"curate the documentation."
+msgstr ""
+
+#: ../../docs/maintenance.rst:33 feec41aa29ad4d21bfde716b4cd143c9
+msgid ""
+"If you need a primer on how to use GitHub and Git, `this "
+"<https://guides.github.com/introduction/git-handbook/>`_ might be a good "
+"place to start."
+msgstr ""
+
+#: ../../docs/maintenance.rst:35 41248c9ed9844bd2ad8475bbc0e73807
+msgid ""
+"In order to work on this documentation, you should have a working version"
+" of ``sphinx``, the *HTML* builder that takes in *ReST* and spits out "
+"*HTML*. You can install ``sphinx`` through ``pip``. If you do not have "
+"pip installed, you should first check if you have a working version of "
+"*Python*."
+msgstr ""
+
+#: ../../docs/maintenance.rst:40 51386e77fb574a0c9735b15a55de48df
+msgid "Maintenance Process"
+msgstr ""
+
+#: ../../docs/maintenance.rst:42 34dd85864c3c4cc99a99f15bf7845364
+msgid "The process for adding or editing the current documentation is as follows:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:44 1ed3ae00d9a240488f3c6cfd70423e49
+msgid ""
+"The curator forks the main repository or creates a new branch for the "
+"edits in mind [#f1]_."
+msgstr ""
+
+#: ../../docs/maintenance.rst:45 115ffa3d53a247b4bda71e3033007d72
+msgid ""
+"The curator edits or adds articles, pages and sections according to the "
+"`Conventions`_."
+msgstr ""
+
+#: ../../docs/maintenance.rst:46 21c25009ce4d4e8384a6afdd52e46a8f
+msgid "The curator generates translations and/or manually translates the article."
+msgstr ""
+
+#: ../../docs/maintenance.rst:47 eef7f68b3b444f828984355e5a97def8
+msgid "The curator commits all changes."
+msgstr ""
+
+#: ../../docs/maintenance.rst:48 fc635cb5b0dc4508be82e92cd091d8ad
+msgid ""
+"The curator creates a pull request with another curator as reviewer so "
+"the edits can be double checked before merged into the entire "
+"documentation."
+msgstr ""
+
+#: ../../docs/maintenance.rst:52 529c513adeed4370a1cc6e11ac65ee05
+msgid "Maintenance Guide"
+msgstr ""
+
+#: ../../docs/maintenance.rst:54 653ce22ecb9d41d3adb39e4c7a75c1e4
+msgid ""
+"Please note that this guide is meant for simple edits or the addition of "
+"just one page. If really big edits are to be done it would be recommended"
+" to checkout the other files first to see how their *ReStructuredText* is"
+" formatted."
+msgstr ""
+
+#: ../../docs/maintenance.rst:56 09a857638f70414d9b36fbef6efad505
+msgid ""
+"First, fork the repository or create a branch [#f1]_ from the main "
+"repository. After that, clone the repository:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:62 c690f2ab51534877be2092895cc7b5ed
+msgid ""
+"``<repository link>`` should be replaced with the appropriate link for "
+"the repository. If a new branch was created for the edits you'd like to "
+"make you need to checkout to that branch:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:69 b688a8af41fd49259acfbc0fe606ba9d
+msgid ""
+"``<branch name>`` should be replaced with the name of the new branch. "
+"Next, start editing the articles you'd like to edit or copy the "
+"``template.rst`` file to a section inside ``\\docs`` to create a new "
+"page. Make sure to follow the `Conventions`_. Next, the localization "
+"files need to be updated. First, build the current set of ``.rst`` files "
+"from the current directory [#f2]_:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:76 896d2a282bbf4f8c91db743bbdd7a05a
+msgid "Next, update the English and Dutch localization files:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:83 897f93b24b7f4674912eec14bd0dff9d
+msgid ""
+"In order to keep the documentation nicely synced between English and "
+"Dutch it's recommended that you go into the ``locales\\nl\\LC_MESSAGES`` "
+"folder and translate the page you have edited. Next, stage and commit all"
+" changes:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:93 0ae1cf5b5c6740bd8bd53165984f0885
+msgid "Next, you need to push the committed changes to the remote repository:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:99 c40c7cab73064ab3a2f0d17255a863b8
+msgid ""
+"If you don't use a GUI tool to manage your Git directory you'll probably "
+"run into a password prompt right about here. Though the commandline is a "
+"very useful and powerful feature, it's a lot easier to use *VS Code* or "
+"*Git GUI* to manage your commits."
+msgstr ""
+
+#: ../../docs/maintenance.rst:101 82123f64e1404f4a9cd23d82934e5ddd
+msgid ""
+"Finally, create a pull request and assign a reviewer. If the reviewer "
+"accepts all changes, the website will automatically update the build."
+msgstr ""
+
+#: ../../docs/maintenance.rst:103 07ad99c9123d4de09eb42bd8df972a96
+msgid ""
+"Because it is normal to not operate on the current stable release of "
+"anything, it is possible to see the final result in a working version. "
+"This version is nothing more than a branch in Github, but that branch "
+"needs to be activated through `readthedocs.org <readthedocs.org>`_."
+msgstr ""
+
+#: ../../docs/maintenance.rst:108 42ef863e29524cc29fbe2f77aca2b52b
+msgid "Conventions"
+msgstr ""
+
+#: ../../docs/maintenance.rst:110 4c4e65dcb38c4b5f9f1adcfd7f81dbc8
+msgid ""
+"The ``template.rst`` will allow you to follow the conventions as closely "
+"as possible, but here's a small list of things to think about when "
+"writing articles for the documentation:"
+msgstr ""
+
+#: ../../docs/maintenance.rst:112 5953a927c6e04fa7b93535fc16c37957
+msgid "Always start the page with a title."
+msgstr ""
+
+#: ../../docs/maintenance.rst:113 174eb9bba6034043a810c1b495872ed8
+msgid ""
+"A page should always end with a ``.. sectionauthor: Your Name`` directive"
+" to differentiate who has written what on the website."
+msgstr ""
+
+#: ../../docs/maintenance.rst:114 becba3d0e9ca4ee1bc32133d471fcad7
+msgid ""
+"Use admonitions and other formatting tools often and precisely. It's "
+"better to be too explainfull than having a vague documentation."
+msgstr ""
+
+#: ../../docs/maintenance.rst:117 c061eb351ce5435b8af2c1ee8ce8ff5e
+msgid "Footnotes"
+msgstr ""
+
+#: ../../docs/maintenance.rst:118 9c1fefd64bc14f8b9953e77d3cf982f8
+msgid ""
+"Creating a new branch is only possible if the curator is added as a "
+"collaborator in GitHub or the project ownership is handed off to him/her."
+msgstr ""
+
+#: ../../docs/maintenance.rst:119 ca0994e429774df6862b546e74da4fd1
+msgid ""
+"It is important that you have a basic knowledge of the command line and "
+"now how to change the current directory."
 msgstr ""
 
 #~ msgid ""
 #~ "Below you'll find all sections "
 #~ "describing the maintenance of this "
 #~ "documentation."
+#~ msgstr ""
+
+#~ msgid "Adding Articles"
 #~ msgstr ""
 

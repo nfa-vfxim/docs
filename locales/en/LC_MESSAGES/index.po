@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 15:22+0200\n"
+"POT-Creation-Date: 2020-08-31 17:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: ../../index.rst:15
+msgid "User Documentation"
+msgstr ""
+
+#: ../../index.rst:22
+msgid "Technical Documentation"
+msgstr ""
 
 #: ../../index.rst:3 98536ed9538849eab7c6607946f115b7
 msgid "Visual Effects & Immersive Media Documentation"
