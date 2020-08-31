@@ -1,28 +1,14 @@
-======================================
-VFX & IM WIKI
-======================================
+===============================================
+Visual Effects & Immersive Media Documentatie
+===============================================
 
-Welkom bij de VFX & IM wiki.
-Op deze wiki vind je een algemene plek
-waarbij alle klassen informatie kunnen delen en lezen op een
-overzichtelijkere manier dan de huidige filmacademie wiki.
-Denk aan filenameconventies, project namen etc.
+Welkom bij de visual effects & immersive media documentatie/wiki.
 
-
-.. note::
-    Op dit moment zijn we nog op zoek naar een goede manier
-    om de wiki te onderhouden.
-    We zitten te denken aan bijvoorbeeld een aantal curatoren per klas.
-    Het is echter
-    ook mogelijk om op dit moment een collaboration branch aan te vragen
-    via de GitHub repository.
-
-
-Index
------
+.. caution:: Deze versie van de documentatie wordt op dit moment ge-"refactored". Klik linksonder om te switchen naar de laatste stabiele release van deze documentatie.
 
 .. toctree::
-    :maxdepth: 2
+    :glob:
 
-    generalInformation
-    l2021
+    maintenance/*
+
+.. sectionauthor:: Bo Kamphues
