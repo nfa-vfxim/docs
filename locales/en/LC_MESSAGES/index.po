@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, Nederlandse Film Academie
-# This file is distributed under the same license as the vfxim docs package.
+# Copyright (C) 2020, Netherlands Film Academy
+# This file is distributed under the same license as the vfxim-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-31 13:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Bo Kamphues <me@bokamphues.nl>\n"
-"Language-Team: Dutch\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,30 +31,4 @@ msgid ""
 "the lower left corner of the screen should be a button to go back to the "
 "current stable version."
 msgstr ""
-
-#~ msgid "Visual Effects & Immersive Media Documentatie"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Welkom bij de visual effects & "
-#~ "immersive media documentatie/wiki. Test NL"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Deze versie van de documentatie wordt"
-#~ " op dit moment ge-\"refactored\". Klik "
-#~ "linksonder om te switchen naar de "
-#~ "laatste stabiele release van deze "
-#~ "documentatie."
-#~ msgstr ""
-
-#~ msgid "Welkom bij de visual effects & immersive media documentatie/wiki."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Deze versie van de documentatie wordt"
-#~ " op dit moment vernieuwd. Klik "
-#~ "linksonder om terug te gaan naar "
-#~ "de laatste stabiele versie."
-#~ msgstr ""
 

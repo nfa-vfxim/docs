@@ -44,6 +44,7 @@ show_authors = True
 # Translate options
 gettext_uuid = True
 gettext_compact = False
+locale_dirs = ['locales']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
