@@ -15,7 +15,7 @@ tree below shows all sections.
 .. toctree::
     :glob:
 
-    docs/maintenance*
     docs/pipeline/pipeline_overview*
+    docs/maintenance*
 
 .. sectionauthor:: Bo Kamphues
