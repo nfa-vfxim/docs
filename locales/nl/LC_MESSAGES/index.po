@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 13:31+0200\n"
+"POT-Creation-Date: 2020-08-31 15:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Bo Kamphues <me@bokamphues.nl>\n"
 "Language-Team: Dutch\n"
@@ -21,15 +21,31 @@ msgstr ""
 msgid "Visual Effects & Immersive Media Documentation"
 msgstr ""
 
-#: ../../index.rst:5 f56652f4afdd45ec8204983d9a297650
-msgid "Welcome to the visual effects & immersive media documentation/wiki."
-msgstr ""
-
-#: ../../index.rst:7 7fda62e0b06f43898c7f64f7edf6b794
+#: ../../index.rst:5 7fda62e0b06f43898c7f64f7edf6b794
 msgid ""
 "This version of the documentation is currently being \"re-factored\". In "
 "the lower left corner of the screen should be a button to go back to the "
 "current stable version."
+msgstr ""
+
+#: ../../index.rst:7 f56652f4afdd45ec8204983d9a297650
+msgid "Welcome to the visual effects & immersive media documentation/wiki."
+msgstr ""
+
+#: ../../index.rst:9 167d6256fcd14e59979bc26591390939
+msgid ""
+"On this wiki you'll find all information, tutorials and documentation "
+"regarding the pipeline, workflows and other class related stuff. Each "
+"class has it's own section meant for information and/or tutorials you'd "
+"like to share with the rest of the class. The contents tree below shows "
+"all sections."
+msgstr ""
+
+#: ../../index.rst:13 eb88071ba87e41d1a48222470842328f
+msgid ""
+"In case you're here as a curator, head over to the "
+":ref:`documentation_maintenance` page to find out how to add articles and"
+" maintain languages."
 msgstr ""
 
 #~ msgid "Visual Effects & Immersive Media Documentatie"

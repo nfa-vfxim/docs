@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 13:31+0200\n"
+"POT-Creation-Date: 2020-08-31 15:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Bo Kamphues <me@bokamphues.nl>\n"
 "Language-Team: Dutch\n"
@@ -17,8 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../maintenance/documentation_maintenance.rst:3
+#: ../../maintenance/documentation_maintenance.rst:5
 #: 0c9ef02ef325418fa41090b88a12cd00
-msgid "Documentatie Onderhoud"
+msgid "Documentation Maintenance"
 msgstr ""
+
+#~ msgid "Documentatie Onderhoud"
+#~ msgstr ""
 
