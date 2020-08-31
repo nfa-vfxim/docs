@@ -65,7 +65,8 @@ html_logo = "logo.svg"
 
 # RTD Theme options:
 html_theme_options = {
-    'titles_only': True
+    'titles_only': True,
+    'logo_only': True
 }
 
 html_last_updated_fmt = ''
