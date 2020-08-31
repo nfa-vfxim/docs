@@ -15,6 +15,6 @@ tree below shows all sections.
 .. toctree::
     :glob:
 
-    maintenance/*
+    docs/*
 
 .. sectionauthor:: Bo Kamphues
