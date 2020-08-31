@@ -18,8 +18,8 @@ import recommonmark
 
 # -- Project information -----------------------------------------------------
 
-project = 'vfxim docs'
-copyright = '2020, Nederlandse Film Academie'
+project = 'vfxim-docs'
+copyright = '2020, Netherlands Film Academy'
 author = 'Bo Kamphues'
 
 # The full version, including alpha/beta/rc tags

@@ -6,12 +6,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: vfxim docs \n"
+"Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 12:54+0200\n"
+"POT-Creation-Date: 2020-08-31 13:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Bo Kamphues <me@bokamphues.nl>\n"
+"Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,13 +22,28 @@ msgid "Visual Effects & Immersive Media Documentatie"
 msgstr ""
 
 #: ../../index.rst:5 f56652f4afdd45ec8204983d9a297650
-msgid "Welkom bij de visual effects & immersive media documentatie/wiki. Test NL"
+msgid "Welkom bij de visual effects & immersive media documentatie/wiki."
 msgstr ""
 
-#: ../../index.rst:7 bfc9d7a630f5427fa8818165476f950f
+#: ../../index.rst:7 7fda62e0b06f43898c7f64f7edf6b794
 msgid ""
-"Deze versie van de documentatie wordt op dit moment ge-\"refactored\". "
-"Klik linksonder om te switchen naar de laatste stabiele release van deze "
-"documentatie."
+"Deze versie van de documentatie wordt op dit moment vernieuwd. Klik linksonder "
+"om terug te gaan naar de laatste stabiele versie."
 msgstr ""
+
+#~ msgid "Visual Effects & Immersive Media Documentatie"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Welkom bij de visual effects & "
+#~ "immersive media documentatie/wiki. Test NL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Deze versie van de documentatie wordt"
+#~ " op dit moment ge-\"refactored\". Klik "
+#~ "linksonder om te switchen naar de "
+#~ "laatste stabiele release van deze "
+#~ "documentatie."
+#~ msgstr ""
 
