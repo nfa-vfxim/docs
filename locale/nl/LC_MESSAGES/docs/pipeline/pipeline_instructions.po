@@ -30,6 +30,9 @@ msgid ""
 "us/articles/219040668-Desktop-download-and-setup>`_ on all computers that"
 " are used by artists."
 msgstr ""
+"Installatie van de vfxim Shotgun Toolkit Pipeline kan gedaan worden door het installeren van "
+"`Shotgun Desktop <https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-download-and-setup>`_ "
+"op alle computers die gebruikt worden door artists."
 
 #: ../../docs/pipeline/pipeline_instructions.rst:10
 #: ba7cfb7df9c24f84a595d8c5e0682db3
@@ -43,6 +46,8 @@ msgid ""
 "deployment <https://developer.shotgunsoftware.com/3a27b3da/>`_. Silent "
 "deployment should always be done through Matthijs & Marijn."
 msgstr ""
+"Shotgun Desktop installatie wordt over het algemeen gedaan via een `stille deployment "
+"<https://developer.shotgunsoftware.com/3a27b3da/>`_. Stille deployments moeten altijd vanuit Matthijs & Marijn gedaan worden."
 
 #: ../../docs/pipeline/pipeline_instructions.rst:17
 #: 1ea987c856434c789d0ff3b76eb2c0f3
@@ -59,4 +64,7 @@ msgid ""
 "<https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-"
 "download-and-setup>`_."
 msgstr ""
-
+"Mocht je Shotgun Desktop handmatig willen installeren op een computer "
+"(voor het thuisgebruik van delen van de pipeline of als er een computer uit sync van de deployment raakt) "
+"dan kan dat door de ``.exe`` uit te voeren van deze `link "
+"<https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-download-and-setup>`_."

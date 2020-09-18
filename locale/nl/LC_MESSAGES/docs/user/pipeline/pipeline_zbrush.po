@@ -20,7 +20,7 @@ msgstr ""
 #: ../../docs/user/pipeline/pipeline_zbrush.rst:5
 #: 63d5c3c3b1244b89aeb7a6ddadd93bac
 msgid "ZBrush Publishing Guide"
-msgstr ""
+msgstr "ZBrush Publicatie Gids"
 
 #: ../../docs/user/pipeline/pipeline_zbrush.rst:7
 #: 094622cb64da4688a40dab42ee15d36f
@@ -30,11 +30,13 @@ msgid ""
 "ability to upload and publish sculpts in the ``.obj`` file format to the "
 "pipeline."
 msgstr ""
+"Helaas wordt *ZBrush* niet gesupport door de pipeline vanwege de afwezigheid van een *Python* API. "
+"We hebben echter wel de mogelijkheid toegevoegd om alsnog je sculpts in de vorm van ``.obj`` bestanden te publiceren naar de pipeline."
 
 #: ../../docs/user/pipeline/pipeline_zbrush.rst:10
 #: 095eb1c7edd8445a8bdaf52403f0c653
 msgid "Start by launching the standalone publishing app from Shotgun Desktop:"
-msgstr ""
+msgstr "Begin met het lanceren van de opzichzelf staande publicatie app vanuit Shotgun Desktop:"
 
 #: ../../docs/user/pipeline/pipeline_zbrush.rst:14
 #: 5333156846404cc3be1e785e94c856e0
@@ -42,6 +44,7 @@ msgid ""
 "From the publishing window, either drag and drop the ``.obj`` file into "
 "the window or browse for it on your local disk."
 msgstr ""
+"Vanuit het publicatie scherm kan je het ``.obj`` bestand erin slepen of vanuit je lokale schijf selecteren."
 
 #: ../../docs/user/pipeline/pipeline_zbrush.rst:18
 #: 47c330fc61c642a086dd4e7d3cbb4968
@@ -51,6 +54,9 @@ msgid ""
 "there are no duplicates. The file you upload should always end with a "
 "version number in between two dots. Example: ``sculpt.v001.obj``"
 msgstr ""
+"De publicator hernoemd en kopiëert je bestand volgens de file naming conventies naar de correcte plekken, maar hij heeft wel een versie nummer "
+"nodig om ervoor te zorgen dat er geen dubbele versies ontstaan. Het bestand dat je publiceert moet altijd eindigen met een versie nummer tussen twee punten. "
+"Voorbeeld: ``sculpt.v001.obj``"
 
 #: ../../docs/user/pipeline/pipeline_zbrush.rst:20
 #: 2f5f4646a8c74f74b7d6d10af86bf1ba
@@ -58,6 +64,7 @@ msgid ""
 "The publisher will throw an error if no version number can be found or if"
 " a duplicate version has already been published."
 msgstr ""
+"De publicator gooit een error wanneer geen versie nummer gevonden kon worden of als er al een versie bestaat met hetzelfde nummer."
 
 #: ../../docs/user/pipeline/pipeline_zbrush.rst:22
 #: 5a398a355629436da1dedc8160774d43
@@ -65,6 +72,7 @@ msgid ""
 "After an ``.obj`` file has been collected by the publisher, select your "
 "task and link in the windows on the right."
 msgstr ""
+"Nadat een ``.obj`` bestand opgehaald is door de publicator, selecteer je taak en asset/shot link in het rechter vak."
 
 #: ../../docs/user/pipeline/pipeline_zbrush.rst:26
 #: d2eb549629684e94afa0e85919eadf38
@@ -74,4 +82,7 @@ msgid ""
 "thumbnail for easier reference to the published file. Click on publish to"
 " upload, copy and publish the sculpt to the rest of the pipeline."
 msgstr ""
+"Typ een beschrijving waarin de veranderingen die je hebt gemaakt worden uitgelegd, de beschrijving van deze specifieke versie, etc. Klik op de thumbnail knop "
+"om een plaatje toe te voegen aan de publicatie voor het eenvoudig terug vinden van het gepubliceerde bestand. "
+"Klik op publish om je bestand the uploaden, kopieëren en publiceren."
 

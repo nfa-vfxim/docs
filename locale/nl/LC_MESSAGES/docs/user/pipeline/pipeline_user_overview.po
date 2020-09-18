@@ -25,5 +25,5 @@ msgstr ""
 #: ../../docs/user/pipeline/pipeline_user_overview.rst:5
 #: 5f271ee6c18641fa9b4421aaea321bcf
 msgid "These pages outline general user guides of usage around the pipeline."
-msgstr ""
+msgstr "Deze paginas beschrijven het algemene gebruik van de pipeline tools."
 
