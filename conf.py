@@ -23,7 +23,7 @@ copyright = '2020, Netherlands Film Academy'
 author = 'Bo Kamphues'
 
 # The full version, including alpha/beta/rc tags
-release = 'refactoring'
+release = '0.1.1'
 
 
 # -- General configuration ---------------------------------------------------
