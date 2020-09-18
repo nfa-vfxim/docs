@@ -47,9 +47,9 @@ msgid ""
 "class has it's own section meant for information and/or tutorials you'd "
 "like to share with the rest of the class. The contents tree below shows "
 "all sections."
-msgstr "Op deze wiki vind je alle informatie, tutorials en documentatie over de pipeline, workflows en andere lichting gerelateerde dingen.
-Elke lichting heeft z'n eigen sectie, bedoeld voor informatie en/of tutorials die je met de rest van je klas zou willen delen. De
-index hieronder illustreet alle secties."
+msgstr "Op deze wiki vind je alle informatie, tutorials en documentatie over de pipeline, workflows en andere lichting gerelateerde dingen. "
+"Elke lichting heeft z'n eigen sectie, bedoeld voor informatie en/of tutorials die je met de rest van je klas zou willen delen. De "
+"index hieronder illustreert alle secties."
 
 #: ../../index.rst:13 1e43c167ad3c4c6184f507a33f0bd069
 msgid ""
