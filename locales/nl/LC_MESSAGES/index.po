@@ -18,22 +18,21 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../index.rst:15
-msgid "User Documentation"
+msgid "Gebruiker Documentatie"
 msgstr ""
 
 #: ../../index.rst:22
-msgid "Technical Documentation"
+msgid "Technische Documentatie"
 msgstr ""
 
 #: ../../index.rst:3 3ff6c21bfe704aa1b0bf19840a165c00
-msgid "Visual Effects & Immersive Media Documentation"
+msgid "Visual Effects & Immersive Media Documentatie"
 msgstr ""
 
 #: ../../index.rst:5 89e00e51b2eb437da60de37e06c5b282
 msgid ""
-"This version of the documentation is currently being \"re-factored\". In "
-"the lower left corner of the screen should be a button to go back to the "
-"current stable version."
+"Deze versie van de documentatie wordt op dit moment ge \"re-factored\"."
+" In de linker hoek kan je terug op de officiële versie komen. "
 msgstr ""
 
 #: ../../index.rst:7 1c2bca00700b442f997e5ec81eb4a67f
