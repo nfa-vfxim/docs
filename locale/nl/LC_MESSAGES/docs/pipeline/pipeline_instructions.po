@@ -20,5 +20,5 @@ msgstr ""
 #: ../../docs/pipeline/pipeline_instructions.rst:3
 #: 9932214cbd6d4b8caa08309a5dfd07b1
 msgid "Installation"
-msgstr ""
+msgstr "Installatie"
 

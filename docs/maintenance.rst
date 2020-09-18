@@ -32,8 +32,14 @@ commandline to accurately curate the documentation.
 
 .. tip:: If you need a primer on how to use GitHub and Git, `this <https://guides.github.com/introduction/git-handbook/>`_ might be a good place to start.
 
-In order to work on this documentation, you should have a working version of ``sphinx``, the *HTML* builder that takes in *ReST* and spits out *HTML*. You can install ``sphinx`` through ``pip``.
+In order to work on this documentation, you should have a working version of ``poetry``, the *Python* dependency manager that installs all necessary software. You can install ``poetry`` through ``pip``.
 If you do not have pip installed, you should first check if you have a working version of *Python*.
+
+Install poetry through pip:
+
+.. code-block:: bash
+
+    pip install poetry
 
 *********************************
 Maintenance Process
@@ -66,21 +72,29 @@ edits you'd like to make you need to checkout to that branch:
 
     git checkout -b <branch name>
 
-``<branch name>`` should be replaced with the name of the new branch. Next, start editing the articles you'd like to edit or copy the ``template.rst`` file
+``<branch name>`` should be replaced with the name of the new branch. 
+
+To make sure all dependencies are installed, run:
+
+.. code-block:: bash
+
+    poetry install
+
+Next, start editing the articles you'd like to edit or copy the ``template.rst`` file
 to a section inside ``\docs`` to create a new page. Make sure to follow the `Conventions`_. Next, the localization files need to be updated. First, build the current set of ``.rst`` files from the current directory [#f2]_:
 
 .. code-block:: bash
 
-    sphinx-build -b gettext . _build/gettext
+    poetry run sphinx-build -b gettext . _build/gettext
 
 Next, update the English and Dutch localization files:
 
 .. code-block:: bash
 
-    sphinx-intl update -p _build/gettext -l en
-    sphinx-intl update -p _build/gettext -l nl
+    poetry run sphinx-intl update -p _build/gettext -l en
+    poetry run sphinx-intl update -p _build/gettext -l nl
 
-In order to keep the documentation nicely synced between English and Dutch it's recommended that you go into the ``locales\nl\LC_MESSAGES`` folder and translate the page you have edited.
+In order to keep the documentation nicely synced between English and Dutch it's recommended that you go into the ``locale\nl\LC_MESSAGES`` folder and translate the page you have edited.
 Next, stage and commit all changes:
 
 .. code-block:: bash
@@ -116,6 +130,6 @@ The ``template.rst`` will allow you to follow the conventions as closely as poss
 .. rubric:: Footnotes
 
 .. [#f1] Creating a new branch is only possible if the curator is added as a collaborator in GitHub or the project ownership is handed off to him/her.
-.. [#f2] It is important that you have a basic knowledge of the command line and now how to change the current directory.
+.. [#f2] It is important that you have a basic knowledge of the command line and know how to change the current directory.
 
 .. sectionauthor:: Bo Kamphues

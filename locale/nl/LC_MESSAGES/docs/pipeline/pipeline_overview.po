@@ -23,5 +23,5 @@ msgstr ""
 
 #: ../../docs/pipeline/pipeline_overview.rst:5 83eddfed883e40a6b8b122997a388057
 msgid "Below you'll find all sections describing the current pipeline."
-msgstr ""
+msgstr "Hieronder vind je alle secties die de huidige pipeline beschrijven."
 
