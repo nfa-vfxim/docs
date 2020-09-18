@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 
 #: ../../index.rst:7 1c2bca00700b442f997e5ec81eb4a67f
-msgid "Welcome to the visual effects & immersive media documentation/wiki."
+msgid "Welkom bij de visual effects en immersive media documentatie."
 msgstr ""
 
 #: ../../index.rst:9 9848c690121b4735a7e8a5e4eaf9c96f
