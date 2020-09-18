@@ -43,7 +43,6 @@ msgid "Welcome to the visual effects & immersive media documentation/wiki."
 msgstr "Welkom bij de visual effects & immersive media documentatie/wiki."
 
 #: ../../index.rst:9 386e088aec4c4b5bb57870e9a668f511
-#, fuzzy
 msgid ""
 "On this wiki you'll find all information, tutorials and documentation "
 "regarding the pipeline, workflows and other class related stuff. Each "
