@@ -1,13 +1,13 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, Netherlands Film Academy
-# This file is distributed under the same license as the vfxim-docs package.
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: vfxim-docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-18 23:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,9 +30,9 @@ msgid ""
 "us/articles/219040668-Desktop-download-and-setup>`_ on all computers that"
 " are used by artists."
 msgstr ""
-"Installatie van de vfxim Shotgun Toolkit Pipeline kan gedaan worden door het installeren van "
+"Installatie van de vfxim Shotgun Toolkit Pipeline wordt gedaan door het installeren van "
 "`Shotgun Desktop <https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-download-and-setup>`_ "
-"op alle computers die gebruikt worden door artists."
+"op alle computers die de pipeline moeten kunnen gebruiken."
 
 #: ../../docs/pipeline/pipeline_instructions.rst:10
 #: ba7cfb7df9c24f84a595d8c5e0682db3
@@ -46,13 +46,14 @@ msgid ""
 "deployment <https://developer.shotgunsoftware.com/3a27b3da/>`_. Silent "
 "deployment should always be done through Matthijs & Marijn."
 msgstr ""
-"Shotgun Desktop installatie wordt over het algemeen gedaan via een `stille deployment "
-"<https://developer.shotgunsoftware.com/3a27b3da/>`_. Stille deployments moeten altijd vanuit Matthijs & Marijn gedaan worden."
+"Shotgun Desktop installatie wordt over het algemeen gedaan via een "
+"`stille deployment <https://developer.shotgunsoftware.com/3a27b3da/>`_."
+"Stille deployment moet altijd vanuit Matthijs & Marijn gedaan worden."
 
 #: ../../docs/pipeline/pipeline_instructions.rst:17
 #: 1ea987c856434c789d0ff3b76eb2c0f3
 msgid "Manual Installation"
-msgstr "Installatie"
+msgstr "Handmatige Installatie"
 
 #: ../../docs/pipeline/pipeline_instructions.rst:19
 #: 1ca66dfab23d47009526abc2ffed7bfa
@@ -64,6 +65,5 @@ msgid ""
 "download-and-setup>`_."
 msgstr ""
 "Mocht je Shotgun Desktop handmatig willen installeren op een computer "
-"(voor het thuisgebruik van delen van de pipeline of als er een computer uit sync van de deployment raakt) "
-"dan kan dat door de ``.exe`` uit te voeren van deze `link "
-"<https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-download-and-setup>`_."
+"(dit kan zijn voor thuis gebruik van de pipeline of als een computer niet helemaal correct gedeployed is) "
+"voer de volgende ``.exe`` uit van deze `link <https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-download-and-setup>`_."
