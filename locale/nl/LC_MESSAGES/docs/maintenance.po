@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 17:15+0200\n"
+"POT-Creation-Date: 2020-09-18 17:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../docs/maintenance.rst:5 c7c8327ba42845758a7cb3e119321fdb
+#: ../../docs/maintenance.rst:5 6ea2e8bbe5654295b79a09d4eda153f8
 msgid "Maintenance"
 msgstr ""
 
-#: ../../docs/maintenance.rst:7 9968ebbc3b4b4c829a89a23119ce7e06
+#: ../../docs/maintenance.rst:7 2d9b5d3eea2f4f8798d8c487e5b94a31
 msgid ""
 "As with any long standing project, this documentation needs maintenance "
 "every once in a while. This maintenance is done by curators who add, edit"
@@ -29,30 +29,30 @@ msgid ""
 "said maintenance is done and the conventions surrounding it."
 msgstr ""
 
-#: ../../docs/maintenance.rst:13 f38d0dc4dd844f8e9d463a02b96045d2
+#: ../../docs/maintenance.rst:13 36e482f14c6a47c7a3f5215c285d3e56
 msgid "Curator Information"
 msgstr ""
 
-#: ../../docs/maintenance.rst:15 1214cfd0f760487088c6f345f8bc5862
+#: ../../docs/maintenance.rst:15 7bc7c91fc8584d159a932877c2344ade
 msgid ""
 "This documentation is hosted through `Read the Docs <readthedocs.org>`_, "
 "an industry-standard way of creating documentation for software or in-"
 "house guides. Some examples of companies using *RTD* are:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:18 14e61be4e2054d77b7d51ae54c77d110
+#: ../../docs/maintenance.rst:18 97c44385adc94dbd96761cfc25aa1b4a
 msgid "`Shotgun <https://developer.shotgunsoftware.com/>`_"
 msgstr ""
 
-#: ../../docs/maintenance.rst:19 48af72ad739b438d890c6f9e19d858c1
+#: ../../docs/maintenance.rst:19 eb8a19ea19344dfb82941178832745d7
 msgid "`OpenColorIO <https://opencolorio.readthedocs.io/en/latest/>`_"
 msgstr ""
 
-#: ../../docs/maintenance.rst:20 7d334657820a4251bd58a9287c0ce187
+#: ../../docs/maintenance.rst:20 f22b185ed60742038f530d1736536fbd
 msgid "`Alembic <https://docs.alembic.io/>`_"
 msgstr ""
 
-#: ../../docs/maintenance.rst:22 56c8c41097624876aa8216c6146ad98f
+#: ../../docs/maintenance.rst:22 2932aa28f5c449dcb46499a808e72aa5
 msgid ""
 "*RTD* documentation pages are written in a format called "
 "`ReStructuredText <https://thomas-"
@@ -70,7 +70,7 @@ msgid ""
 " takes care of that for you."
 msgstr ""
 
-#: ../../docs/maintenance.rst:29 aff75c803a8a4909a7793243392a6741
+#: ../../docs/maintenance.rst:29 30b39cc6a48b4ba4b811055c5113d590
 msgid ""
 "This documentation is hosted through *RTD*, but the actual working code "
 "resides in a `GitHub repository <https://github.com/nfa-vfxim/docs>`_. "
@@ -80,14 +80,14 @@ msgid ""
 "curate the documentation."
 msgstr ""
 
-#: ../../docs/maintenance.rst:33 feec41aa29ad4d21bfde716b4cd143c9
+#: ../../docs/maintenance.rst:33 9bbe609342b04561b34074ced958a4a0
 msgid ""
 "If you need a primer on how to use GitHub and Git, `this "
 "<https://guides.github.com/introduction/git-handbook/>`_ might be a good "
 "place to start."
 msgstr ""
 
-#: ../../docs/maintenance.rst:35 41248c9ed9844bd2ad8475bbc0e73807
+#: ../../docs/maintenance.rst:35 deafd86a73d24916ae5cf69326c52740
 msgid ""
 "In order to work on this documentation, you should have a working version"
 " of ``sphinx``, the *HTML* builder that takes in *ReST* and spits out "
@@ -96,46 +96,46 @@ msgid ""
 "*Python*."
 msgstr ""
 
-#: ../../docs/maintenance.rst:40 51386e77fb574a0c9735b15a55de48df
+#: ../../docs/maintenance.rst:40 fb563e7454db4fd6a039dc7446b5e232
 msgid "Maintenance Process"
 msgstr ""
 
-#: ../../docs/maintenance.rst:42 34dd85864c3c4cc99a99f15bf7845364
+#: ../../docs/maintenance.rst:42 2ecfb987815a4e6f90cee3c6aed20e1e
 msgid "The process for adding or editing the current documentation is as follows:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:44 1ed3ae00d9a240488f3c6cfd70423e49
+#: ../../docs/maintenance.rst:44 e5747e3b2cf145c894242600f4350e38
 msgid ""
 "The curator forks the main repository or creates a new branch for the "
 "edits in mind [#f1]_."
 msgstr ""
 
-#: ../../docs/maintenance.rst:45 115ffa3d53a247b4bda71e3033007d72
+#: ../../docs/maintenance.rst:45 e23b9f5f813542b7986737630b46e15a
 msgid ""
 "The curator edits or adds articles, pages and sections according to the "
 "`Conventions`_."
 msgstr ""
 
-#: ../../docs/maintenance.rst:46 21c25009ce4d4e8384a6afdd52e46a8f
+#: ../../docs/maintenance.rst:46 67a28fd0f2a64124babd63cc1baeea0f
 msgid "The curator generates translations and/or manually translates the article."
 msgstr ""
 
-#: ../../docs/maintenance.rst:47 eef7f68b3b444f828984355e5a97def8
+#: ../../docs/maintenance.rst:47 c408c744f3384c668e2b6746376fdb0a
 msgid "The curator commits all changes."
 msgstr ""
 
-#: ../../docs/maintenance.rst:48 fc635cb5b0dc4508be82e92cd091d8ad
+#: ../../docs/maintenance.rst:48 4e90777d195944ab8db56c99b0179be4
 msgid ""
 "The curator creates a pull request with another curator as reviewer so "
 "the edits can be double checked before merged into the entire "
 "documentation."
 msgstr ""
 
-#: ../../docs/maintenance.rst:52 529c513adeed4370a1cc6e11ac65ee05
+#: ../../docs/maintenance.rst:52 3a4af3ee61334b82abcb905ceb5209d4
 msgid "Maintenance Guide"
 msgstr ""
 
-#: ../../docs/maintenance.rst:54 653ce22ecb9d41d3adb39e4c7a75c1e4
+#: ../../docs/maintenance.rst:54 4ecc54e3947e4315a6f980a1c047885e
 msgid ""
 "Please note that this guide is meant for simple edits or the addition of "
 "just one page. If really big edits are to be done it would be recommended"
@@ -143,20 +143,20 @@ msgid ""
 " formatted."
 msgstr ""
 
-#: ../../docs/maintenance.rst:56 09a857638f70414d9b36fbef6efad505
+#: ../../docs/maintenance.rst:56 9a878e65869a42a5b41a655098e7309f
 msgid ""
 "First, fork the repository or create a branch [#f1]_ from the main "
 "repository. After that, clone the repository:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:62 c690f2ab51534877be2092895cc7b5ed
+#: ../../docs/maintenance.rst:62 6ce09282cd5c441ea350589c895f8582
 msgid ""
 "``<repository link>`` should be replaced with the appropriate link for "
 "the repository. If a new branch was created for the edits you'd like to "
 "make you need to checkout to that branch:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:69 b688a8af41fd49259acfbc0fe606ba9d
+#: ../../docs/maintenance.rst:69 6b0ac17d5cca48a78af15647cd82f73e
 msgid ""
 "``<branch name>`` should be replaced with the name of the new branch. "
 "Next, start editing the articles you'd like to edit or copy the "
@@ -166,11 +166,11 @@ msgid ""
 "from the current directory [#f2]_:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:76 896d2a282bbf4f8c91db743bbdd7a05a
+#: ../../docs/maintenance.rst:76 b8266b1e202d483d94bd73f527fb51dd
 msgid "Next, update the English and Dutch localization files:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:83 897f93b24b7f4674912eec14bd0dff9d
+#: ../../docs/maintenance.rst:83 68576f4e0b5f4dbabf6ac6ab0d52064d
 msgid ""
 "In order to keep the documentation nicely synced between English and "
 "Dutch it's recommended that you go into the ``locales\\nl\\LC_MESSAGES`` "
@@ -178,11 +178,11 @@ msgid ""
 " changes:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:93 0ae1cf5b5c6740bd8bd53165984f0885
+#: ../../docs/maintenance.rst:93 2b1e1120278a4f3185d8107a72ac6b4c
 msgid "Next, you need to push the committed changes to the remote repository:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:99 c40c7cab73064ab3a2f0d17255a863b8
+#: ../../docs/maintenance.rst:99 12f83a4e98bd471f9e60ed118cd1ffda
 msgid ""
 "If you don't use a GUI tool to manage your Git directory you'll probably "
 "run into a password prompt right about here. Though the commandline is a "
@@ -190,13 +190,13 @@ msgid ""
 "*Git GUI* to manage your commits."
 msgstr ""
 
-#: ../../docs/maintenance.rst:101 82123f64e1404f4a9cd23d82934e5ddd
+#: ../../docs/maintenance.rst:101 d2f2299e607a46839231c06c4663bde9
 msgid ""
 "Finally, create a pull request and assign a reviewer. If the reviewer "
 "accepts all changes, the website will automatically update the build."
 msgstr ""
 
-#: ../../docs/maintenance.rst:103 07ad99c9123d4de09eb42bd8df972a96
+#: ../../docs/maintenance.rst:103 57b466cdc2be4f69bd7eb3fd398c78aa
 msgid ""
 "Because it is normal to not operate on the current stable release of "
 "anything, it is possible to see the final result in a working version. "
@@ -204,55 +204,46 @@ msgid ""
 "needs to be activated through `readthedocs.org <readthedocs.org>`_."
 msgstr ""
 
-#: ../../docs/maintenance.rst:108 42ef863e29524cc29fbe2f77aca2b52b
+#: ../../docs/maintenance.rst:108 e67ac31414ea40e1b72ed57f42816ea0
 msgid "Conventions"
 msgstr ""
 
-#: ../../docs/maintenance.rst:110 4c4e65dcb38c4b5f9f1adcfd7f81dbc8
+#: ../../docs/maintenance.rst:110 a0ba1e786c2a409f99fbd400003da613
 msgid ""
 "The ``template.rst`` will allow you to follow the conventions as closely "
 "as possible, but here's a small list of things to think about when "
 "writing articles for the documentation:"
 msgstr ""
 
-#: ../../docs/maintenance.rst:112 5953a927c6e04fa7b93535fc16c37957
+#: ../../docs/maintenance.rst:112 681aec8c916449cca0379cf17c17bd8f
 msgid "Always start the page with a title."
 msgstr ""
 
-#: ../../docs/maintenance.rst:113 174eb9bba6034043a810c1b495872ed8
+#: ../../docs/maintenance.rst:113 765cc4b550804af0a16c6269e1d47d07
 msgid ""
 "A page should always end with a ``.. sectionauthor: Your Name`` directive"
 " to differentiate who has written what on the website."
 msgstr ""
 
-#: ../../docs/maintenance.rst:114 becba3d0e9ca4ee1bc32133d471fcad7
+#: ../../docs/maintenance.rst:114 26e7a12e64b6452a9c1b7904bac354db
 msgid ""
 "Use admonitions and other formatting tools often and precisely. It's "
 "better to be too explainfull than having a vague documentation."
 msgstr ""
 
-#: ../../docs/maintenance.rst:117 c061eb351ce5435b8af2c1ee8ce8ff5e
+#: ../../docs/maintenance.rst:117 8322e3c57ea64e2e9416363a7f318fe3
 msgid "Footnotes"
 msgstr ""
 
-#: ../../docs/maintenance.rst:118 9c1fefd64bc14f8b9953e77d3cf982f8
+#: ../../docs/maintenance.rst:118 4e0fc611b795407ba0b49bd0974e2953
 msgid ""
 "Creating a new branch is only possible if the curator is added as a "
 "collaborator in GitHub or the project ownership is handed off to him/her."
 msgstr ""
 
-#: ../../docs/maintenance.rst:119 ca0994e429774df6862b546e74da4fd1
+#: ../../docs/maintenance.rst:119 6089f2beec7548c89b667d51078dd306
 msgid ""
 "It is important that you have a basic knowledge of the command line and "
 "now how to change the current directory."
 msgstr ""
-
-#~ msgid ""
-#~ "Below you'll find all sections "
-#~ "describing the maintenance of this "
-#~ "documentation."
-#~ msgstr ""
-
-#~ msgid "Adding Articles"
-#~ msgstr ""
 

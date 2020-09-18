@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 17:15+0200\n"
+"POT-Creation-Date: 2020-09-18 17:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,22 +25,22 @@ msgstr ""
 msgid "Technical Documentation"
 msgstr ""
 
-#: ../../index.rst:3 98536ed9538849eab7c6607946f115b7
+#: ../../index.rst:3 51989290545f4867a56d2c5351dd19a0
 msgid "Visual Effects & Immersive Media Documentation"
 msgstr ""
 
-#: ../../index.rst:5 7fda62e0b06f43898c7f64f7edf6b794
+#: ../../index.rst:5 d930537421cd4200bf8b76f2ff216074
 msgid ""
 "This version of the documentation is currently being \"re-factored\". In "
 "the lower left corner of the screen should be a button to go back to the "
 "current stable version."
 msgstr ""
 
-#: ../../index.rst:7 f56652f4afdd45ec8204983d9a297650
+#: ../../index.rst:7 dc9c6487fdb84976b7a10c457aebe743
 msgid "Welcome to the visual effects & immersive media documentation/wiki."
 msgstr ""
 
-#: ../../index.rst:9 167d6256fcd14e59979bc26591390939
+#: ../../index.rst:9 386e088aec4c4b5bb57870e9a668f511
 msgid ""
 "On this wiki you'll find all information, tutorials and documentation "
 "regarding the pipeline, workflows and other class related stuff. Each "
@@ -49,17 +49,9 @@ msgid ""
 "all sections."
 msgstr ""
 
-#: ../../index.rst:13 eb88071ba87e41d1a48222470842328f
+#: ../../index.rst:13 1e43c167ad3c4c6184f507a33f0bd069
 msgid ""
 "In case you're here as a curator, head over to the :ref:`maintenance` "
 "page to find out how to add articles and maintain languages."
 msgstr ""
-
-#~ msgid ""
-#~ "In case you're here as a curator,"
-#~ " head over to the "
-#~ ":ref:`documentation_maintenance` page to find "
-#~ "out how to add articles and "
-#~ "maintain languages."
-#~ msgstr ""
 
