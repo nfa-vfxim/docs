@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Netherlands Film Academy
+# This file is distributed under the same license as the vfxim-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vfxim-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-18 23:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../docs/user/pipeline/pipeline_zbrush.rst:5
+#: 63d5c3c3b1244b89aeb7a6ddadd93bac
+msgid "ZBrush Publishing Guide"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_zbrush.rst:7
+#: 094622cb64da4688a40dab42ee15d36f
+msgid ""
+"Unfortunately, *ZBrush* is currently not supported in the pipeline "
+"toolkit due to a lack of a *Python* API. However, we have added the "
+"ability to upload and publish sculpts in the ``.obj`` file format to the "
+"pipeline."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_zbrush.rst:10
+#: 095eb1c7edd8445a8bdaf52403f0c653
+msgid "Start by launching the standalone publishing app from Shotgun Desktop:"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_zbrush.rst:14
+#: 5333156846404cc3be1e785e94c856e0
+msgid ""
+"From the publishing window, either drag and drop the ``.obj`` file into "
+"the window or browse for it on your local disk."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_zbrush.rst:18
+#: 47c330fc61c642a086dd4e7d3cbb4968
+msgid ""
+"The publisher will rename and copy your file according to the configured "
+"naming conventions, but the publisher does need a version to make sure "
+"there are no duplicates. The file you upload should always end with a "
+"version number in between two dots. Example: ``sculpt.v001.obj``"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_zbrush.rst:20
+#: 2f5f4646a8c74f74b7d6d10af86bf1ba
+msgid ""
+"The publisher will throw an error if no version number can be found or if"
+" a duplicate version has already been published."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_zbrush.rst:22
+#: 5a398a355629436da1dedc8160774d43
+msgid ""
+"After an ``.obj`` file has been collected by the publisher, select your "
+"task and link in the windows on the right."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_zbrush.rst:26
+#: d2eb549629684e94afa0e85919eadf38
+msgid ""
+"Type a description describing the changes made to this task, a "
+"description of this version etc. Click on the thumbnail button to add a "
+"thumbnail for easier reference to the published file. Click on publish to"
+" upload, copy and publish the sculpt to the rest of the pipeline."
+msgstr ""
+

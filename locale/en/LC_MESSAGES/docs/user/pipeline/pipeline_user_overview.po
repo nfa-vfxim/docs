@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 17:50+0200\n"
+"POT-Creation-Date: 2020-09-18 23:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,5 +20,10 @@ msgstr ""
 #: ../../docs/user/pipeline/pipeline_user_overview.rst:3
 #: 8254204764e4403e9700f08a71d987bc
 msgid "Pipeline"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_user_overview.rst:5
+#: 5f271ee6c18641fa9b4421aaea321bcf
+msgid "These pages outline general user guides of usage around the pipeline."
 msgstr ""
 

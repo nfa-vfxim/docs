@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 17:50+0200\n"
+"POT-Creation-Date: 2020-09-18 23:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,5 +20,42 @@ msgstr ""
 #: ../../docs/pipeline/pipeline_instructions.rst:3
 #: 9932214cbd6d4b8caa08309a5dfd07b1
 msgid "Installation"
+msgstr ""
+
+#: ../../docs/pipeline/pipeline_instructions.rst:5
+#: ff1c18b86f9f447c87f7ebb64da5e03d
+msgid ""
+"Installation of the vfxim Shotgun Toolkit Pipeline is done by installing "
+"`Shotgun Desktop <https://support.shotgunsoftware.com/hc/en-"
+"us/articles/219040668-Desktop-download-and-setup>`_ on all computers that"
+" are used by artists."
+msgstr ""
+
+#: ../../docs/pipeline/pipeline_instructions.rst:10
+#: ba7cfb7df9c24f84a595d8c5e0682db3
+msgid "Deployment"
+msgstr ""
+
+#: ../../docs/pipeline/pipeline_instructions.rst:12
+#: 6986ceeacbe7411b9f5dd2ddb70c196a
+msgid ""
+"Shotgun Desktop installation is generally installed through a `silent "
+"deployment <https://developer.shotgunsoftware.com/3a27b3da/>`_. Silent "
+"deployment should always be done through Matthijs & Marijn."
+msgstr ""
+
+#: ../../docs/pipeline/pipeline_instructions.rst:17
+#: 1ea987c856434c789d0ff3b76eb2c0f3
+msgid "Manual Installation"
+msgstr ""
+
+#: ../../docs/pipeline/pipeline_instructions.rst:19
+#: 1ca66dfab23d47009526abc2ffed7bfa
+msgid ""
+"Should you want to install Shotgun Desktop manually on a computer (for "
+"home pipeline usage or if a computer is out of sync with the deployment),"
+" just run the ``.exe`` from this `link "
+"<https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-"
+"download-and-setup>`_."
 msgstr ""
 

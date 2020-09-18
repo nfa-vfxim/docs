@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 17:50+0200\n"
+"POT-Creation-Date: 2020-09-18 23:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,9 @@ msgid "Pipeline"
 msgstr ""
 
 #: ../../docs/pipeline/pipeline_overview.rst:5 83eddfed883e40a6b8b122997a388057
-msgid "Below you'll find all sections describing the current pipeline."
+#, fuzzy
+msgid ""
+"Below you'll find all sections describing the current pipeline for TD'ers"
+" or developers."
 msgstr "Hieronder vind je alle secties die de huidige pipeline beschrijven."
 
