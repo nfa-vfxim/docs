@@ -49,7 +49,7 @@ locale_dirs = ['locales']
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-locale_dirs = ['locales']
+locale_dirs = ['locales/']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
