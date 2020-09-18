@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 13:31+0200\n"
+"POT-Creation-Date: 2020-09-18 16:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Bo Kamphues <me@bokamphues.nl>\n"
 "Language-Team: Dutch\n"
@@ -17,18 +17,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../index.rst:3 98536ed9538849eab7c6607946f115b7
+#: ../../index.rst:15
+msgid "Gebruiker Documentatie"
+msgstr ""
+
+#: ../../index.rst:22
+msgid "Technische Documentatie"
+msgstr ""
+
+#: ../../index.rst:3 3ff6c21bfe704aa1b0bf19840a165c00
 msgid "Visual Effects & Immersive Media Documentatie"
 msgstr ""
 
-#: ../../index.rst:5 f56652f4afdd45ec8204983d9a297650
-msgid "Welkom bij de visual effects & immersive media documentatie/wiki."
+#: ../../index.rst:5 89e00e51b2eb437da60de37e06c5b282
+msgid ""
+"Deze versie van de documentatie wordt op dit moment ge \"re-factored\"."
+" In de linker hoek kan je terug op de officiële versie komen. "
 msgstr ""
 
-#: ../../index.rst:7 7fda62e0b06f43898c7f64f7edf6b794
+#: ../../index.rst:7 1c2bca00700b442f997e5ec81eb4a67f
+msgid "Welcome to the visual effects & immersive media documentation/wiki."
+msgstr ""
+
+#: ../../index.rst:9 9848c690121b4735a7e8a5e4eaf9c96f
 msgid ""
-"Deze versie van de documentatie wordt op dit moment vernieuwd. Klik linksonder "
-"om terug te gaan naar de laatste stabiele versie."
+"On this wiki you'll find all information, tutorials and documentation "
+"regarding the pipeline, workflows and other class related stuff. Each "
+"class has it's own section meant for information and/or tutorials you'd "
+"like to share with the rest of the class. The contents tree below shows "
+"all sections."
+msgstr ""
+
+#: ../../index.rst:13 57b5dec14e0c4c578ef743a98d4c445f
+msgid ""
+"In case you're here as a curator, head over to the :ref:`maintenance` "
+"page to find out how to add articles and maintain languages."
 msgstr ""
 
 #~ msgid "Visual Effects & Immersive Media Documentatie"
@@ -45,5 +68,58 @@ msgstr ""
 #~ "linksonder om te switchen naar de "
 #~ "laatste stabiele release van deze "
 #~ "documentatie."
+#~ msgstr ""
+
+#~ msgid "Welkom bij de visual effects & immersive media documentatie/wiki."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Deze versie van de documentatie wordt"
+#~ " op dit moment vernieuwd. Klik "
+#~ "linksonder om terug te gaan naar "
+#~ "de laatste stabiele versie."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case you're here as a curator,"
+#~ " head over to the "
+#~ ":ref:`documentation_maintenance` page to find "
+#~ "out how to add articles and "
+#~ "maintain languages."
+#~ msgstr ""
+
+#~ msgid "Gebruiker Documentatie"
+#~ msgstr ""
+
+#~ msgid "Technische Documentatie"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Deze versie van de documentatie wordt"
+#~ " op het moment ge- \"refactored\". In"
+#~ " het menu linksonder kan je terug "
+#~ "gaan naar de stabiele versie van "
+#~ "de documentatie."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Op deze wiki vind je alle "
+#~ "informatie, tutorials and documentatie rondom"
+#~ " de pipeline, workflows en andere "
+#~ "lichting gerelateerde zaken. Elke lichting "
+#~ "heeft zijn eigen sectie met informatie"
+#~ " en/of tutorials die je zou willen"
+#~ " doorgeven aan de rest van je "
+#~ "klas.De index hieronder beschrijft alle "
+#~ "paginas."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In het geval dat je hier bent "
+#~ "als curator, ga naar de "
+#~ ":ref:`maintenance` pagina om uit te "
+#~ "vinden hoe de documentatie netjes wordt"
+#~ " gehouden en hoe je nieuwe artikelen"
+#~ " kan toevoegen."
 #~ msgstr ""
 

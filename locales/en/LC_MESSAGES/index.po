@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Netherlands Film Academy
+# This file is distributed under the same license as the vfxim-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vfxim-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-31 17:15+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../index.rst:15
+msgid "User Documentation"
+msgstr ""
+
+#: ../../index.rst:22
+msgid "Technical Documentation"
+msgstr ""
+
+#: ../../index.rst:3 98536ed9538849eab7c6607946f115b7
+msgid "Visual Effects & Immersive Media Documentation"
+msgstr ""
+
+#: ../../index.rst:5 7fda62e0b06f43898c7f64f7edf6b794
+msgid ""
+"This version of the documentation is currently being \"re-factored\". In "
+"the lower left corner of the screen should be a button to go back to the "
+"current stable version."
+msgstr ""
+
+#: ../../index.rst:7 f56652f4afdd45ec8204983d9a297650
+msgid "Welcome to the visual effects & immersive media documentation/wiki."
+msgstr ""
+
+#: ../../index.rst:9 167d6256fcd14e59979bc26591390939
+msgid ""
+"On this wiki you'll find all information, tutorials and documentation "
+"regarding the pipeline, workflows and other class related stuff. Each "
+"class has it's own section meant for information and/or tutorials you'd "
+"like to share with the rest of the class. The contents tree below shows "
+"all sections."
+msgstr ""
+
+#: ../../index.rst:13 eb88071ba87e41d1a48222470842328f
+msgid ""
+"In case you're here as a curator, head over to the :ref:`maintenance` "
+"page to find out how to add articles and maintain languages."
+msgstr ""
+
+#~ msgid ""
+#~ "In case you're here as a curator,"
+#~ " head over to the "
+#~ ":ref:`documentation_maintenance` page to find "
+#~ "out how to add articles and "
+#~ "maintain languages."
+#~ msgstr ""
+

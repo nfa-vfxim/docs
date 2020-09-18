@@ -23,7 +23,7 @@ copyright = '2020, Netherlands Film Academy'
 author = 'Bo Kamphues'
 
 # The full version, including alpha/beta/rc tags
-release = 'refactoring'
+release = '0.1.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -44,6 +44,7 @@ show_authors = True
 # Translate options
 gettext_uuid = True
 gettext_compact = False
+locale_dirs = ['locales']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -64,12 +65,8 @@ html_logo = "logo.svg"
 
 # RTD Theme options:
 html_theme_options = {
-    'titles_only': True
+    'titles_only': False,
+    'logo_only': True
 }
 
 html_last_updated_fmt = ''
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
