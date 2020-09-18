@@ -51,7 +51,6 @@ msgstr ""
 
 #: ../../docs/pipeline/pipeline_instructions.rst:17
 #: 1ea987c856434c789d0ff3b76eb2c0f3
-#, fuzzy
 msgid "Manual Installation"
 msgstr "Installatie"
 
