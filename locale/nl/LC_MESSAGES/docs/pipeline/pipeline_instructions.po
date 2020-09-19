@@ -47,7 +47,7 @@ msgid ""
 "deployment should always be done through Matthijs & Marijn."
 msgstr ""
 "Shotgun Desktop installatie wordt over het algemeen gedaan via een "
-"`stille deployment <https://developer.shotgunsoftware.com/3a27b3da/>`_."
+"`stille deployment <https://developer.shotgunsoftware.com/3a27b3da/>`_. "
 "Stille deployment moet altijd vanuit Matthijs & Marijn gedaan worden."
 
 #: ../../docs/pipeline/pipeline_instructions.rst:17
