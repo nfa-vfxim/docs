@@ -348,7 +348,6 @@ msgstr ""
 "toegevoegd als collaborator in Github of als eigenaar van het project."
 
 #: ../../docs/maintenance.rst:133 6089f2beec7548c89b667d51078dd306
-#, fuzzy
 msgid ""
 "It is important that you have a basic knowledge of the command line and "
 "know how to change the current directory."
