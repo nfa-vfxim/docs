@@ -6,4 +6,4 @@ The wiki is accessible [here](https://wiki.vfxim.nl/) .
 
 ## Maintenance
 
-Instructions on how to maintain the wiki and transfer peacefully between classes can be found at [WIKI INSTRUCTIONS LINK].
+Instructions on how to maintain the wiki and transfer peacefully between classes can be found at the [maintenance page](https://wiki.vfxim.nl/latest/docs/maintenance).
