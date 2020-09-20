@@ -10,6 +10,8 @@ On this wiki you'll find all information, tutorials and documentation regarding 
 Each class has it's own section meant for information and/or tutorials you'd like to share with the rest of the class. The contents
 tree on the left shows all sections.
 
+.. note:: This documentation is supported in multiple languages. Click `here <https://wiki.vfxim.nl/nl/latest>`_ to switch to the Dutch version.
+
 .. note:: In case you're here as a curator, head over to the :ref:`maintenance` page to find out how to add articles and maintain languages.
 
 .. toctree::
