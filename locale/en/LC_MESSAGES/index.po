@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 18:33+0200\n"
+"POT-Creation-Date: 2020-09-20 11:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../index.rst:15
+#: ../../index.rst:17
 msgid "User Documentation"
 msgstr ""
 
-#: ../../index.rst:22
+#: ../../index.rst:24
 msgid "Technical Documentation"
+msgstr ""
+
+#: ../../index.rst:32
+msgid "Classes Documentation"
 msgstr ""
 
 #: ../../index.rst:3 51989290545f4867a56d2c5351dd19a0
@@ -49,7 +53,13 @@ msgid ""
 "shows all sections."
 msgstr ""
 
-#: ../../index.rst:13 1e43c167ad3c4c6184f507a33f0bd069
+#: ../../index.rst:13 039445f63bbf4204950a3ea5f6695f52
+msgid ""
+"This documentation is supported in multiple languages. Click `here "
+"<https://wiki.vfxim.nl/nl/latest>`_ to switch to the Dutch version."
+msgstr ""
+
+#: ../../index.rst:15 1e43c167ad3c4c6184f507a33f0bd069
 msgid ""
 "In case you're here as a curator, head over to the :ref:`maintenance` "
 "page to find out how to add articles and maintain languages."
