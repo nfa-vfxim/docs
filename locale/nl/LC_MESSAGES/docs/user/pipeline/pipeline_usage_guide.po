@@ -50,7 +50,6 @@ msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_usage_guide.rst:18
 #: 6c1c9565cd984cf29d974513ef76a22b
-#, fuzzy
 msgid ""
 "One of the most important things in a pipeline is accurate version "
 "control of all the workfiles. Through *Shotgun -> File Save* you can save"
