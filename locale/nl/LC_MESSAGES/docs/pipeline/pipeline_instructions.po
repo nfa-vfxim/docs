@@ -1,0 +1,69 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-09-18 23:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../docs/pipeline/pipeline_instructions.rst:3
+#: 9932214cbd6d4b8caa08309a5dfd07b1
+msgid "Installation"
+msgstr "Installatie"
+
+#: ../../docs/pipeline/pipeline_instructions.rst:5
+#: ff1c18b86f9f447c87f7ebb64da5e03d
+msgid ""
+"Installation of the vfxim Shotgun Toolkit Pipeline is done by installing "
+"`Shotgun Desktop <https://support.shotgunsoftware.com/hc/en-"
+"us/articles/219040668-Desktop-download-and-setup>`_ on all computers that"
+" are used by artists."
+msgstr ""
+"Installatie van de vfxim Shotgun Toolkit Pipeline wordt gedaan door het installeren van "
+"`Shotgun Desktop <https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-download-and-setup>`_ "
+"op alle computers die de pipeline moeten kunnen gebruiken."
+
+#: ../../docs/pipeline/pipeline_instructions.rst:10
+#: ba7cfb7df9c24f84a595d8c5e0682db3
+msgid "Deployment"
+msgstr ""
+
+#: ../../docs/pipeline/pipeline_instructions.rst:12
+#: 6986ceeacbe7411b9f5dd2ddb70c196a
+msgid ""
+"Shotgun Desktop installation is generally installed through a `silent "
+"deployment <https://developer.shotgunsoftware.com/3a27b3da/>`_. Silent "
+"deployment should always be done through Matthijs & Marijn."
+msgstr ""
+"Shotgun Desktop installatie wordt over het algemeen gedaan via een "
+"`stille deployment <https://developer.shotgunsoftware.com/3a27b3da/>`_. "
+"Stille deployment moet altijd vanuit Matthijs & Marijn gedaan worden."
+
+#: ../../docs/pipeline/pipeline_instructions.rst:17
+#: 1ea987c856434c789d0ff3b76eb2c0f3
+msgid "Manual Installation"
+msgstr "Handmatige Installatie"
+
+#: ../../docs/pipeline/pipeline_instructions.rst:19
+#: 1ca66dfab23d47009526abc2ffed7bfa
+msgid ""
+"Should you want to install Shotgun Desktop manually on a computer (for "
+"home pipeline usage or if a computer is out of sync with the deployment),"
+" just run the ``.exe`` from this `link "
+"<https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-"
+"download-and-setup>`_."
+msgstr ""
+"Mocht je Shotgun Desktop handmatig willen installeren op een computer "
+"(dit kan zijn voor thuis gebruik van de pipeline of als een computer niet helemaal correct gedeployed is) "
+"voer de volgende ``.exe`` uit van deze `link <https://support.shotgunsoftware.com/hc/en-us/articles/219040668-Desktop-download-and-setup>`_."
