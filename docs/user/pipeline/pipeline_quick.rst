@@ -1,5 +1,5 @@
 ==========================
-Quick Startup Guide
+Quick Start Guide
 ==========================
 
 This guide describes how to quickly get started with using the pipeline.
