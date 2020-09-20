@@ -29,4 +29,12 @@ tree on the left shows all sections.
     docs/pipeline/pipeline_overview*
     docs/maintenance*
 
+.. toctree::
+    :glob:
+    :caption: Classes Documentation
+    :hidden:
+
+    docs/class/l2021/l2021_overview*
+    docs/class/l2022/l2022_overview*
+
 .. sectionauthor:: Bo Kamphues
