@@ -2,8 +2,6 @@
 Visual Effects & Immersive Media Documentation
 ===============================================
 
-.. warning:: This version of the documentation is currently being "re-factored". In the lower left corner of the screen should be a button to go back to the current stable version.
-
 Welcome to the visual effects & immersive media documentation/wiki.
 
 On this wiki you'll find all information, tutorials and documentation regarding the pipeline, workflows and other class related stuff.
