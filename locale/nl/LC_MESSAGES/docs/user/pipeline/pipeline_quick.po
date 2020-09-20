@@ -67,7 +67,7 @@ msgid ""
 "as their main task management! ``https://nfa2.shotgunstudio.com`` is "
 "meant for testing and second years."
 msgstr ""
-"Vierde- en derdejaars horen ``https://nfa.shotgunstudio.com`` te gebruiken voor hun taak management."
+"Vierde- en derdejaars horen ``https://nfa.shotgunstudio.com`` te gebruiken voor hun taak management. "
 "``https://nfa2.shotgunstudio.com`` is bedoelt voor het testen en gebruik van de tweedejaars."
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:27
