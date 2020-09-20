@@ -15,7 +15,7 @@ There are a number of important things you can control using this tab.
 File Save
 ++++++++++++++
 
-On of the most important things in a pipeline is accurate version control of all the workfiles.
+One of the most important things in a pipeline is accurate version control of all the workfiles.
 Through *Shotgun -> File Save* you can save your current workfile with automatic version increments.
 When you click *File Save* in a new untitled save file, you'll be greeted with a context selection screen.
 In this screen you'll see all shots and assets you are assigned tasks to. Select one and click save.

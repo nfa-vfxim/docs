@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 23:07+0200\n"
+"POT-Creation-Date: 2020-09-20 16:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:3
 #: 063ab02ea48f40258458356501c81b87
-msgid "Quick Startup Guide"
+msgid "Quick Start Guide"
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:5
@@ -99,4 +99,7 @@ msgid ""
 "*Python* API. Check the :ref:`zbrush_publishing` to see how you can still"
 " publish your sculpts to the pipeline."
 msgstr ""
+
+#~ msgid "Quick Startup Guide"
+#~ msgstr ""
 

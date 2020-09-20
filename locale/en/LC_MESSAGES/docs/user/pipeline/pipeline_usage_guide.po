@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Netherlands Film Academy
+# This file is distributed under the same license as the vfxim-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vfxim-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-20 16:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:3
+#: 7ec048b9987246d98c9b329afb692ac3
+msgid "Quick Usage Guide"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:5
+#: 6eadfa6121f14b66986432caa1afb0a1
+msgid ""
+"The pipeline uses *Shotgun Toolkit* as it's main platform. From within "
+"most DCC's you'll be able to open your latest workfile  or load source "
+"files from other work into your program through the Shotgun tab."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:10
+#: a2b032aa86c74c408a9abe08245814b1
+msgid "The Shotgun tab in Houdini."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:12
+#: 6c2c4a9689194609ad4b6dce039471ce
+msgid "There are a number of important things you can control using this tab."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:16
+#: 9b2695cf0a024ce3a590d5e278e7d01e
+msgid "File Save"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:18
+#: 6c1c9565cd984cf29d974513ef76a22b
+msgid ""
+"One of the most important things in a pipeline is accurate version "
+"control of all the workfiles. Through *Shotgun -> File Save* you can save"
+" your current workfile with automatic version increments. When you click "
+"*File Save* in a new untitled save file, you'll be greeted with a context"
+" selection screen. In this screen you'll see all shots and assets you are"
+" assigned tasks to. Select one and click save."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:25
+#: 071084455b6f4742bd584f07a30b5e5c
+msgid ""
+"As you can see in the lower left corner, there is a *name* box. This name"
+" box is filled with *scene* by default. You can change this as a way to "
+"further refine what you are working on. (If you are working on an asset "
+"that has multiple lines of workfiles, you could change this to reflect "
+"the part you are working on)."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:27
+#: d0709cc2515b4a18b4c51ab4a4b79e41
+msgid ""
+"Once you have saved your empty file you can use ``ctrl + s`` to save your"
+" current file like usual. If you'd like to save a new version of the "
+"current file you can again hit *Shotgun -> File Save* to quickly save a "
+"new version."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:33
+#: d72d06b10a184e04923ea69ded6e7c3c
+msgid ""
+"After you have saved your file through the pipeline you'll notice some "
+"more options open up, like publishing files, load, scene breakdown etc."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:37
+#: 95df389b88944b2d88ca08a5de046eac
+msgid "File Open"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:39
+#: 7a3940e9e714441e8a729ab18369dbd0
+msgid ""
+"If you are not starting from scratch but continuing from someone else's "
+"work, you'll want to click *Shotgun -> File Open*. In this screen you'll "
+"also be greeted with any tasks you are assigned to. When clicking on an "
+"entity you'll see all the workfiles other artists have already made."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:45
+#: 7acd519a6f884c13b8fdd238bdaa484e
+msgid "You can open other work files or create a new file from this context."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:49
+#: d3c30503682647c2a61dea375ba341c7
+msgid "Publish"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:51
+#: e462d9ae1cc74dcd853e052d9080bb84
+msgid ""
+"An important distinction to be made is the difference between published "
+"files and workfiles. Workfiles are files where the work is actively being"
+" made while published files are files meant to be loaded by other "
+"workfiles. For example, if you have created a rig in Maya you would "
+"publish that file so that other people can load & reference that rig. To "
+"publish the current workfile and any items that are found inside (for "
+"example a file cache node or a set of rendered ``exr``'s) click *Shotgun "
+"-> Publish*."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:59
+#: 5b71feae4b1448fe843b86a10ac79095
+msgid ""
+"If you have used a file cache node, or have rendered a file you will "
+"notice that the publisher automatically picks up those files and creates "
+"an item for them. Use the description and thumbnail to provide reference "
+"for other people who will load in these published files."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:65
+#: 37a09e71804e47e0b65dbc1977d81255
+msgid "Load"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:67
+#: 1eb1480e7792440ea1ff622eb7b95aab
+msgid ""
+"The load app is used to load any published files from the project into "
+"your current work file. For example renders from CG that need to be "
+"loaded by Nuke or a simulation that was file cached by another artist "
+"that now needs to be loaded into the layout file."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:73
+#: 94f03f265983462ca51ae1c688bfdc6a
+msgid ""
+"Obviously not all software takes in all files. (Like trying to import a "
+"``.bgeo.sc`` cache into Nuke) The loader will automatically only show "
+"files that the current software can import."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:77
+#: 8802a56dc86b424faa628e89b67564f7
+msgid "Scene Breakdown"
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:79
+#: a331ac53f42f4fc9b94cf8c163030bdb
+msgid ""
+"If you have loaded any assets or files from other artists there's a good "
+"chance they'll be updated every once in a while. The scene breakdown app "
+"keeps track of all the published files you currently have imported in "
+"your workfile and shows a red or green light if it's out-of-date or up-"
+"to-date. You can individually update or update all references."
+msgstr ""
+
+#: ../../docs/user/pipeline/pipeline_usage_guide.rst:85
+#: ad93bd59db524f85865981983bac11aa
+msgid "This particular asset has a newer version to be updated."
+msgstr ""
+
+#~ msgid ""
+#~ "On of the most important things in"
+#~ " a pipeline is accurate version "
+#~ "control of all the workfiles. Through"
+#~ " *Shotgun -> File Save* you can "
+#~ "save your current workfile with "
+#~ "automatic version increments. When you "
+#~ "click *File Save* in a new "
+#~ "untitled save file, you'll be greeted"
+#~ " with a context selection screen. In"
+#~ " this screen you'll see all shots "
+#~ "and assets you are assigned tasks "
+#~ "to. Select one and click save."
+#~ msgstr ""
+
