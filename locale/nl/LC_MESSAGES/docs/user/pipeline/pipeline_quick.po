@@ -19,7 +19,6 @@ msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:3
 #: 2d097a3719914ee680d8b93087eb37ec
-#, fuzzy
 msgid "Quick Start Guide"
 msgstr "Snelstart Gids"
 
@@ -119,7 +118,6 @@ msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:42
 #: 4e7025902d054ed1bb7784305adfcdc0
-#, fuzzy
 msgid ""
 "*ZBrush* is currently not supported in the pipeline due to a lack of a "
 "*Python* API."
