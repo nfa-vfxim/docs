@@ -125,6 +125,4 @@ msgid ""
 "*Python* API."
 msgstr ""
 "*ZBrush* is op dit moment nog niet gesupport in de pipeline vanwege de "
-"afwezigheid van een *Python* API. Check de :ref:`zbrush_publishing` om te"
-" zien hoe je alsnog sculpts kan publiceren naar de pipeline."
-
+"afwezigheid van een *Python* API."
