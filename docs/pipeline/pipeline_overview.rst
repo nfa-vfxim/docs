@@ -8,6 +8,6 @@ Below you'll find all sections describing the current pipeline for TD'ers or dev
     :glob:
 
     pipeline_instructions*
-    pipeline_tk-houdini-cachenode*
+    pipeline_project_setup*
 
 .. sectionauthor:: Bo Kamphues

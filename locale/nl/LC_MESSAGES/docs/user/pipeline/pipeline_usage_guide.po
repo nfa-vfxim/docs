@@ -122,7 +122,7 @@ msgstr ""
 #: ../../docs/user/pipeline/pipeline_usage_guide.rst:45
 #: 7acd519a6f884c13b8fdd238bdaa484e
 msgid "You can open other work files or create a new file from this context."
-msgstr "Je kan andere workfiles openen of een nieuwe file creeëren vanuit deze context."
+msgstr "Je kan andere workfiles openen of een nieuwe file creëeren vanuit deze context."
 
 #: ../../docs/user/pipeline/pipeline_usage_guide.rst:49
 #: d3c30503682647c2a61dea375ba341c7
@@ -158,7 +158,7 @@ msgid ""
 "for other people who will load in these published files."
 msgstr ""
 "Als je een file cache node hebt gebruikt of een sequentie heb gerenderd zal de publisher "
-"automatisch deze files oppikken en er een item voor creeëren. Gebruik de thumbnail en descriptie "
+"automatisch deze files oppikken en er een item voor creëeren. Gebruik de thumbnail en descriptie "
 "om extra aanduiding te geven voor anderen die deze publish gaan gebruiken."
 
 #: ../../docs/user/pipeline/pipeline_usage_guide.rst:65
