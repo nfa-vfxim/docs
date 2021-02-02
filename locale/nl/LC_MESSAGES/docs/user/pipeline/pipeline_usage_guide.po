@@ -20,7 +20,7 @@ msgstr ""
 #: ../../docs/user/pipeline/pipeline_usage_guide.rst:3
 #: 7ec048b9987246d98c9b329afb692ac3
 msgid "Quick Usage Guide"
-msgstr "Snelle Gebruikers Gids"
+msgstr "Gebruikers Gids"
 
 #: ../../docs/user/pipeline/pipeline_usage_guide.rst:5
 #: 6eadfa6121f14b66986432caa1afb0a1
