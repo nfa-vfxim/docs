@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-20 11:20+0200\n"
+"POT-Creation-Date: 2020-09-20 11:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../index.rst:15
+#: ../../index.rst:17
 msgid "User Documentation"
 msgstr "Gebruikers Documentatie"
 
-#: ../../index.rst:22
+#: ../../index.rst:24
 msgid "Technical Documentation"
 msgstr "Technische Documentatie"
 
-#: ../../index.rst:30
+#: ../../index.rst:32
 msgid "Classes Documentation"
 msgstr "Lichting Documentatie"
 
@@ -33,11 +33,19 @@ msgstr "Lichting Documentatie"
 msgid "Visual Effects & Immersive Media Documentation"
 msgstr "Visual Effects & Immersive Media Documentatie"
 
-#: ../../index.rst:5 dc9c6487fdb84976b7a10c457aebe743
+#: ../../index.rst:5 039445f63bbf4204950a3ea5f6695f52
+msgid ""
+"This version of the documentation is not a stable release. Click in the "
+"lower left corner to return to the latest version."
+msgstr ""
+"Deze versie van de documentatie is niet de laatste stabiele versie. Klik "
+"in de hoek linksonder om terug te keren naar de laatste versie."
+
+#: ../../index.rst:7 dc9c6487fdb84976b7a10c457aebe743
 msgid "Welcome to the visual effects & immersive media documentation/wiki."
 msgstr "Welkom bij de visual effects & immersive media documentatie/wiki."
 
-#: ../../index.rst:7 386e088aec4c4b5bb57870e9a668f511
+#: ../../index.rst:9 386e088aec4c4b5bb57870e9a668f511
 msgid ""
 "On this wiki you'll find all information, tutorials and documentation "
 "regarding the pipeline, workflows and other class related stuff. Each "
@@ -51,7 +59,7 @@ msgstr ""
 "met de rest van je klas zou willen delen. De index hier links illustreert"
 " alle secties."
 
-#: ../../index.rst:11 039445f63bbf4204950a3ea5f6695f52
+#: ../../index.rst:13 039445f63bbf4204950a3ea5f6695f52
 msgid ""
 "This documentation is supported in multiple languages. Click `here "
 "<https://wiki.vfxim.nl/nl/latest>`_ to switch to the Dutch version."
@@ -59,7 +67,7 @@ msgstr ""
 "Deze documentatie heeft support voor meerdere talen. Klik `hier "
 "<https://wiki.vfxim.nl/en/latest>`_ voor de Engelse versie."
 
-#: ../../index.rst:13 1e43c167ad3c4c6184f507a33f0bd069
+#: ../../index.rst:15 1e43c167ad3c4c6184f507a33f0bd069
 msgid ""
 "In case you're here as a curator, head over to the :ref:`maintenance` "
 "page to find out how to add articles and maintain languages."
