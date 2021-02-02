@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-2021, Netherlands Film Academy
+# This file is distributed under the same license as the vfxim-docs package.
+# Bo Kamphues <b.kamphues@outlook.com>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vfxim-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-02 14:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Bo Kamphues <b.kamphues@outlook.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:3
+#: 69a9d01e44064aa49dadad597186ae5e
+msgid "Project Setup"
+msgstr "Project Configuratie"
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:7
+#: fe289d7fc5b74efeb286d0f80c780079
+msgid ""
+"This page guides you through the process of setting up projects within "
+"the current pipeline."
+msgstr ""
+"Deze pagina beschrijft het proces van het opzetten van een project binnen de huidige pipeline."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:13
+#: 0c6cfd5fb2dc4e078d887cc3d284cfd1
+msgid "New Project"
+msgstr "Nieuw Project"
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:15
+#: 8f6329203a07443fa0d0cbb3c9da08fc
+msgid ""
+"When a new project is created on *Shotgun* it is not automatically "
+"configured for use within the pipeline. To setup a project to work with "
+"the *Shotgun Desktop* pipeline, first, add the project to *Shotgun*."
+msgstr ""
+"Wanneer een nieuwe project is aangemaakt op *Shotgun* wordt het niet automatisch opgezet om te werken met de pipeline."
+" Om een project te laten werken met de *Shotgun Desktop* pipeline moet je eerst het project aanmaken in *Shotgun*."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:18
+#: a9983fcd3e3d4fbe88337e48a7473358
+msgid "You will now see the project in the *Shotgun Desktop* project manager."
+msgstr "Je zal het project nu in de *Shotgun Desktop* project manager vinden."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:20
+#: 7f8494bf8e014567b38ecdf43e38f6f9
+msgid ""
+"You need to be assigned to the project you want to setup, otherwise it "
+"will not show up in *Shotgun Desktop*."
+msgstr ""
+"Je moet gekoppeld aan het project zijn in *Shotgun* anders zal het niet te zien zijn in *Shotgun Desktop*."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:24
+#: d2d1ae0d083f48cdb496ad2275860fbd
+msgid ""
+"All non-archived projects which you are assigned to are automatically "
+"shown in *Shotgun Desktop*."
+msgstr ""
+"Alle niet gearchiveerde waar je aan gekoppeld bent zijn te zien in *Shotgun Desktop*."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:26
+#: 338ac493bbcd4fa8bdefd50f5c3c1182
+msgid ""
+"Double click the project you'd like to setup and click your profile icon "
+"-> *Advanced Project Setup*."
+msgstr ""
+"Dubbel klik op het project dat je zou willen opzetten en klik daarna op je profiel icoontje -> *Advanced Project Setup*."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:30
+#: 8d93cb14ac7a463591388f1ab41aec48
+msgid ""
+"You'll be taken to a wizard that allows you to setup the project pipeline"
+" configuration. The type of configuration needs to be **Git**."
+msgstr ""
+"Je wordt hierna meegenomen naar een configuratie wizard. Het type configuratie dat je hier selecteert moet **Git** zijn."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:35
+#: 0a70fb3da94349d2936dcad4def1b46f
+msgid ""
+"After choosing *Git* as your configuration type you'll be greeted with a "
+"link box. The link to our current *Shotgun Configuration* is "
+"``https://github.com/nfa-vfxim/nfa-shotgun-configuration.git``. This is "
+"also the repository where most of the pipeline development takes place."
+msgstr ""
+"Na het kiezen voor *Git* als het configuratie type zal je gegroet worden met een git-link box. De link naar de huidige *Shotgun Configuration* repository is "
+"``https://github.com/nfa-vfxim/nfa-shotgun-configuration.git``. Dit is ook de repository waar de meeste pipeline development gebeurd."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:41
+#: fdf1ab9a58ea4208bea191199811c155
+msgid ""
+"Next you'll need a place to store the project. You can either select an "
+"already created storage location or create a new one."
+msgstr ""
+"Nu moet je een plek kiezen voor het project. Je kan een al geconfigureerde locatie kiezen of een nieuwe aanmaken."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:45
+#: a9f5be0c8f814532b310d9918b127163
+msgid ""
+"Next you'll need to assign a computer-friendly name for the project. This"
+" should always be lowercase and include no spaces or special characters."
+msgstr ""
+"Hierna zal je een computer-vriendelijke naam moet kiezen voor het project. "
+"Dit moet altijd een lage-letters, geen spatie of speciale karakters vriendelijke naam zijn."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:49
+#: 2d22fa50f239495aa2d1ebcd9bb9570b
+msgid ""
+"The last step before the project is correctly setup is to choose between "
+"a distributed or centralized setup. You should choose distributed here as"
+" it will download the configuration on every individual artist PC. This "
+"is a lot faster than a centralized system where the configuration will be"
+" stored on the server itself."
+msgstr ""
+"De laatste stap voordat het project correct is opgezet is het kiezen tussen een gedistribueerde of gecentraliseerde setup. "
+"Je moet hier altijd kiezen voor 'distributed'. Dit download de configuratie naar de individuele artist PC's waardoor het een stuk sneller laad. "
+"Bij een gecentraliseerde setup wordt de configuratie op de server bewaard."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:52
+#: e7c391bc26084f7889ade7616275b29c
+msgid "Do not choose centralized as your configuration deployment!"
+msgstr "Kies **niet** voor een 'centralized' setup als je configuratie deployment."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:56
+#: e1d9c570ec9345869e8aca50cd9d6089
+msgid "Click run setup and everything should be good to go!"
+msgstr "Click 'run setup' en alles zou moeten werken in de pipeline!"
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:60
+#: 49c3ea0d68734f2f8619cf689aa6d1ba
+msgid "Updating Projects"
+msgstr "Projecten Updaten"
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:62
+#: 83a46c1de3d34f96b62cbbe259459133
+msgid ""
+"If you already have a project setup correctly, but there's been a "
+"pipeline update, you'll need to re-setup your project."
+msgstr ""
+"Als je een project al eens eerder correct hebt opgezet in de pipeline, maar er is een update in de pipeline gekomen, moet je de configuratie opnieuw doen."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:64
+#: 613250e8f9194bffa0aa2a0783781727
+msgid ""
+"First, go to the *Shotgun* project page in your browser and make sure the"
+" ``tank_name`` field is not hidden."
+msgstr ""
+"Ga naar de *Shotgun* projecten pagina in je browser en zorg dat het ``tank_name`` veld niet verborgen is."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:68
+#: 2aac08c382574c3ca3dea729f8fbef35
+msgid ""
+"Delete the content inside the ``tank_name`` field and jump to the "
+"*Pipeline Configurations* page of the project."
+msgstr ""
+"Verwijder de naam in het ``tank_name`` veld en ga naar de *Pipeline Configurations* pagina van het project."
+
+#: ../../docs/pipeline/pipeline_project_setup.rst:72
+#: 8231e49c451f4519a32820b5313f24e3
+msgid ""
+"Delete all entities of pipeline configurations and go through the steps "
+"described in :ref:`New Project`."
+msgstr ""
+"Verwijder alle eenheden van pipeline configuraties en ga door de stappen beschreven in "
+":ref:`New Project`."
+
