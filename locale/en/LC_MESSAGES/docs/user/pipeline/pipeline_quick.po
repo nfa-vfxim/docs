@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vfxim-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-20 16:38+0200\n"
+"POT-Creation-Date: 2021-02-02 12:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,22 +18,22 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:3
-#: 063ab02ea48f40258458356501c81b87
+#: 2d097a3719914ee680d8b93087eb37ec
 msgid "Quick Start Guide"
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:5
-#: 0f59ef5fb079404f9f6e92b9f6e66d88
+#: 507798d4b99249eebafc7e9f20b478a5
 msgid "This guide describes how to quickly get started with using the pipeline."
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:9
-#: e95aa9deec4d4609a65a20da7f94f81f
+#: 709891e27ac441d4b80044d8612d926a
 msgid "Start Shotgun Desktop"
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:11
-#: 162943b48ff64de8843f3b9e114fd246
+#: cec91b7c360c481b8612ec6ad6c806cb
 msgid ""
 "Technical Directors or developers in your class should have taken care of"
 " the installation of `Shotgun Desktop "
@@ -43,21 +43,21 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:15
-#: 9df0ff95bdf841ff80928c6f2bd64a49
+#: 3ea8dc2596e1469a97106c661764d5d7
 msgid ""
 "Shotgun Desktop can be launched by typing *Shotgun* in your Windows "
 "search bar:"
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:20
-#: 11004f91b78b4e34bad658d894f68812
+#: 6fa05b8df9644b068afd81d40a7bee9d
 msgid ""
 "When starting Shotgun Desktop for the first time, you'll be greeted with "
 "a login prompt:"
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:25
-#: c776ed07f5eb470894b00f90778f82b6
+#: b0fc00c70c484fcb95fe18e0488ff19c
 msgid ""
 "Fourth and third years should be using ``https://nfa.shotgunstudio.com`` "
 "as their main task management! ``https://nfa2.shotgunstudio.com`` is "
@@ -65,26 +65,26 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:27
-#: 8f7dc0d11b3e493fa25a08c46b05b13e
+#: 8f62fb2a97c4478289e2146c2d5a8567
 msgid ""
 "Fill out the login info provided by your coordinator or supervisor and "
 "you'll be greeted with all projects you are assigned to:"
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:30
-#: 6b42b182a3964689bc9546aa9d72e40f
+#: 20cfe73bd1764e4e8ca6ec2ad5244340
 msgid ""
 "You may need to start up Shotgun Desktop again here as it sometimes bugs "
 "out after clicking sign in."
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:36
-#: a698a4673d8f4050a6eb0e9e46aca721
+#: 063721a86f9c4e68a114a15786a0ce95
 msgid "Launching DCC's"
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:38
-#: aa1dd6a99e264e16bc838d0f1837856a
+#: 552c6e1112704ef2a0baba91886bbf4b
 msgid ""
 "Double click the project you want to work on and the pipeline "
 "configuration will automatically be downloaded. Here you should see all "
@@ -93,13 +93,21 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user/pipeline/pipeline_quick.rst:42
-#: 2ac52be0906a4eec99d9b1c2431e2751
+#: 4e7025902d054ed1bb7784305adfcdc0
 msgid ""
 "*ZBrush* is currently not supported in the pipeline due to a lack of a "
-"*Python* API. Check the :ref:`zbrush_publishing` to see how you can still"
-" publish your sculpts to the pipeline."
+"*Python* API."
 msgstr ""
 
 #~ msgid "Quick Startup Guide"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*ZBrush* is currently not supported in"
+#~ " the pipeline due to a lack of"
+#~ " a *Python* API. Check the "
+#~ ":ref:`zbrush_publishing` to see how you "
+#~ "can still publish your sculpts to "
+#~ "the pipeline."
 #~ msgstr ""
 

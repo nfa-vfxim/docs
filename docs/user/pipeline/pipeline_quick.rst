@@ -39,7 +39,7 @@ Double click the project you want to work on and the pipeline configuration will
 Here you should see all the installed software that are configured with the pipeline. Double click
 any package you would like to use and the pipeline does the rest.
 
-.. warning:: *ZBrush* is currently not supported in the pipeline due to a lack of a *Python* API. Check the :ref:`zbrush_publishing` to see how you can still publish your sculpts to the pipeline.
+.. warning:: *ZBrush* is currently not supported in the pipeline due to a lack of a *Python* API.
 
 .. image:: resources/shotgun_launcher.png
 

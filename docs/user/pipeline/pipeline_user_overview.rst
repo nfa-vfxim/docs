@@ -9,6 +9,5 @@ These pages outline general user guides of usage around the pipeline.
 
     pipeline_quick*
     pipeline_usage_guide*
-    pipeline_zbrush*
 
 .. sectionauthor:: Bo Kamphues
