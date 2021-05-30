@@ -60,4 +60,16 @@ Extra's
 AOV's
 ########################
 
+Should you want to include an *AOV* inside your render, the process is as follows:
+
+- Add the AOV like you normally would inside Arnold. 
+- Click 'render as separate file' if you don't want to merge the AOV inside the beauty render.
+- The pipeline will automatically take care of the paths supplied.
+
+.. image:: resources/arnold_aov.png
+
+.. warning:: One thing the Arnold engine + pipeline does **NOT** understand is the splitting of multiple light groups pér AOV into different EXR sequences. For these AOV sets it's best to include them inside the beauty.
+
+.. warning:: Adding a *Cryptomatte* AOV is not as simple as adding the AOV from the selection box. See `this <https://docs.arnoldrenderer.com/display/A5AFHUG/Cryptomatte+AOVs>`_ Arnold documentation page on how to properly add cryptomatte AOV's. One important note to add that the Arnold documentation does not include is that you should disable the options *Strip Object Namespace* & *Strip Material Namespace* when rendering in Houdini.
+
 .. sectionauthor:: Bo Kamphues

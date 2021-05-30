@@ -1,0 +1,220 @@
+# Render Tutorial.
+# Copyright (C) 2020-2021, Netherlands Film Academy
+# This file is distributed under the same license as the vfxim-docs package.
+# Bo Kamphues <b.kamphues@outlook.com>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vfxim-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-30 12:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Bo Kamphues <b.kamphues@outlook.com>\n"
+"Language-Team: Dutch <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:3
+#: e8c41bec3fef4e94a3db9a241121210e
+msgid "Rendering with Arnold in the Shotgun Pipeline"
+msgstr "Renderen met Arnold in de Shotgun Pipeline"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:5
+#: 0fc2da3cef6f4b7d93423d5430d92177
+msgid ""
+"This article will guide you through the process of creating renders with "
+"*Arnold* in the *Shotgun* pipeline."
+msgstr ""
+"Dit artikel zal je door het proces leiden voor het maken van renders met *Arnold* in de *Shotgun* pipeline."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:9
+#: c3281e45870846a1b8c9391a952e8a13
+msgid "Preparing scene and creating ASS files"
+msgstr "De scène preparen en ASS files aanmaken"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:11
+#: f5beb1ee6ad14c98a656c27295088b2a
+msgid ""
+"In order to properly render through the farm and *Shotgun* pipeline you "
+"will need to prepare your scene file. Start by placing a *SGTK Arnold* "
+"node in your */out* network."
+msgstr ""
+"Om ervoor te zorgen dat je via de farm en *Shotgun* pipeline kan renderen "
+"moet je de scène voorbereiden. Begin met het plaatsen van een *SGTK Arnold* node "
+"in je */out* netwerk."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:16
+#: 210cdadf578c410d955d26fb4ca50475
+msgid ""
+"The *SGTK Arnold* node removes the standard output file options and "
+"automatically fills in any path. To render using the farm you need to "
+"enable the creation of ``.ass`` files. Go to the *archive* tab and click "
+"*Export ASS file*."
+msgstr ""
+"De *SGTK Arnold* node haalt de standaard output opties weg en vult automatisch de render paden in. "
+"Om via de farm te renderen moet je ``.ass`` bestanden aan gaan maken. Ga naar de *archive* tab en klik "
+"*Export ASS file*."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:21
+#: 7d1b6454a120428aafdecc47a09ad841
+msgid ""
+"The path should automatically be filled by the pipeline. Make sure "
+"*Render Frame Range* is selected if you would like to render a sequence "
+"and then click *Render to disk*."
+msgstr ""
+"Het pad moet nu automatisch gevuld worden door de pipeline. Zorg dat *Render Frame Range* is geselecteerd "
+"als je een sequentie wilt renderen en klik op *Render to disk*."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:25
+#: c565b2a5d1a243cb8185aeeefe87c90b
+msgid ""
+"The ``.ass`` file creation will now commence locally on your computer. As"
+" soon as it's done, you can submit this render through the *Arnold (ASS)*"
+" submitter in *Deadline*."
+msgstr ""
+"De ``.ass`` file creatie zal nu lokaal op je computer beginnen. Zodra "
+"het klaar is kan deze sequentie op de farm worden gesubmit via de *Arnold (ASS)* submitter in *Deadline*."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:29
+#: 25c0098338bf46399d684edfa7a3e048
+msgid "Submitting render to Deadline"
+msgstr "De render naar Deadline sturen"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:31
+#: c92804b7c1194d93b31afe4fbecaf5c7
+msgid ""
+"To submit the ``.ass`` files sequence to *Deadline*, first, open up the "
+"*Deadline Monitor*. Inside the monitor click *Submit -> 3D -> Arnold "
+"(ASS)*."
+msgstr ""
+"Om de ``.ass`` bestanden sequentie naar *Deadline* te sturen open je eerst de *Deadline Monitor*. In de monitor klik je op "
+"*Submit -> 3D -> Arnold (ASS)*."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:35
+#: 3b227aa795f34512a1a7806d10bedeaa
+msgid ""
+"In the opened job submitter, first name the job properly to the task at "
+"hand. All the priority and pool settings are set correctly by default. "
+"You will need to select the first frame of the ``.ass`` file sequence. "
+"Once you have selected the first frame it will automatically correct the "
+"frame range variable. If it doesn't automatically change the variable, "
+"fill it in manually. (See screenshot below for reference)."
+msgstr ""
+"In de hierna volgend geopende submitter vul je eerst de naam van de taak in. "
+"Alle prioriteit en pool instellingen zullen standaard al redelijk correct ingesteld zijn. "
+"Je moet nu het eerste frame van je ``.ass`` file sequentie kiezen. "
+"Zodra je het eerste frame geselecteerd hebt zal *Deadline* automatisch de frame range invullen. "
+"Mocht *Deadline* dat niet automatisch doen, dan kan je het ook met de hand overschrijven. (Zie de screenshot hieronder ter referentie."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:40
+#: 6a0e982216f94a8bafbeb35a6231bd4c
+msgid "Click submit to start rendering and see the magic happen!"
+msgstr "Klik op submit om te beginnen met renderen en zie magie voor je ogen verschijnen!"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:42
+#: cf263a76f8da470bb6cc76270437a9fc
+msgid ""
+"It's important to note that you should always check the first few frames "
+"rendered on the farm. There's a multitude of errors that can pop up that "
+"you'll need to fix manually. From locally referenced files to workers in "
+"the farm needing to be blacklisted because of inconclusive OS images."
+msgstr ""
+"Het is belangrijk om altijd de eerste paar frames van de render te checken. "
+"Er is een scala aan dingen die regelmatig fout gaan op de farm die je handmatig zal moeten fixen. "
+"Van lokaal gerefereerde bestanden tot workers in de farm die even geblacklist moeten worden vanwege niet complete software sets."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:46
+#: 0226e9c8e9334c408b8a0249ee176cdf
+msgid "Publishing finished renders"
+msgstr "Publiceren van renders"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:48
+#: 425197dcd7f54ae0a7557faf08c234d6
+msgid ""
+"When the render has finished in the *Deadline Monitor* you are ready to "
+"publish your ``.exr`` image sequence. Back in *Houdini*, click on the "
+"*Shotgun* tab *-> Publish*. The *Shotgun Publisher* should automatically "
+"pick up all the rendered files. If it doesn't, check to make sure the "
+"rendered files are actually present on the server. If you have selected "
+"any *AOV*'s you should see them as children from the main ``.exr`` file."
+msgstr ""
+"Wanneer de render klaar is in de *Deadline Monitor* ben je ook klaar om de ``.exr`` sequentie te gaan publiceren. "
+"In *Houdini* klik je op het *Shotgun* tab *-> Publish*. De *Shotgun Publisher* zou nu automatisch alle gerenderde bestanden moeten oppakken. "
+"Als hij dat niet automatisch doet moet je even controleren of alle bestanden ook daadwerkelijk gerenderd zijn op de server. "
+"Als je *AOV*'s had geselecteerd moet je zie hier als 'children' van de beauty zien staan."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:51
+#: 620d37647c934db28c1856369484484f
+msgid ""
+"Create a screenshot for every Beauty/AOV and click publish. Congrats, "
+"you're done! You should now be able to import the ``.exr`` sequence in "
+"*Nuke*."
+msgstr ""
+"Maak een screenshot voor elke Beauty/AOV en click op publish. Gefeliciteerd, "
+"je bent nu klaar! Als het goed is kan je nu de ``.exr`` sequenties in *Nuke* inladen."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:57
+#: 582c7edfa4ad441286b0396e882aaf8b
+msgid "Extra's"
+msgstr "Extra's"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:61
+#: 4cc0344edf2940a5b91f3830ead988b8
+msgid "AOV's"
+msgstr "AOV's"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:63
+#: 7819c74c64fb4230b7725f91b8efdc64
+msgid ""
+"Should you want to include an *AOV* inside your render, the process is as"
+" follows:"
+msgstr ""
+"Mocht je *AOV*'s in je render willen hebben, dan is het proces als volgt:"
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:65
+#: 1e51cfc27abb421b8b4ae7d2c29839ea
+msgid "Add the AOV like you normally would inside Arnold."
+msgstr "Voeg de AOV toe zoals je dat normaal ook zou doen in Arnold."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:66
+#: 64eb9b41bb4149bba9357c89bd954fa9
+msgid ""
+"Click 'render as separate file' if you don't want to merge the AOV inside"
+" the beauty render."
+msgstr ""
+"Klik 'render as separate file' als je de AOV niet wilt toevoegen aan de beauty bestanden."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:67
+#: d7eb0a02b2c64490a30e756805da1866
+msgid "The pipeline will automatically take care of the paths supplied."
+msgstr "De pipeline zal automatisch het pad regelen van de AOV."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:71
+#: 3181eab126b24194b4afedeb9b30615f
+msgid ""
+"One thing the Arnold engine + pipeline does **NOT** understand is the "
+"splitting of multiple light groups pér AOV into different EXR sequences. "
+"For these AOV sets it's best to include them inside the beauty."
+msgstr ""
+"Een ding wat de Arnold engine + pipeline nog **NIET** begrijpen is "
+"het splitten van een AOV in verschillende light groups en in losse EXR sequences. "
+"Voor deze AOV sets is het beter om ze niet als een losse EXR te renderen, maar toe te voegen aan de beauty."
+
+#: ../../docs/class/l2021/l2021_render_tutorial.rst:73
+#: ae435e9773f14151892b07a568b4f6e9
+msgid ""
+"Adding a *Cryptomatte* AOV is not as simple as adding the AOV from the "
+"selection box. See `this "
+"<https://docs.arnoldrenderer.com/display/A5AFHUG/Cryptomatte+AOVs>`_ "
+"Arnold documentation page on how to properly add cryptomatte AOV's. One "
+"important note to add that the Arnold documentation does not include is "
+"that you should disable the options *Strip Object Namespace* & *Strip "
+"Material Namespace* when rendering in Houdini."
+msgstr ""
+"Het toevoegen van een *Cryptomatte* AOV is niet zo simpel als het toevoegen van een AOV via de selectie box. "
+"Zie `dit <https://docs.arnoldrenderer.com/display/A5AFHUG/Cryptomatte+AOVs>`_ artikel op de Arnold documentatie "
+"over het toevoegen van Cryptomatte AOV's. Een belangrijk ding wat de Arnold documentatie hier niet uitlegt is dat je "
+"de opties *Strip Object Namespace* & *Strip Material Namespace* moet uitzetten wanneer je in Houdini rendert."
